@@ -1,0 +1,65 @@
+{
+  "license": {
+    "key": "MDF-YV9N-3N93-PXDZ",
+    "plan": "Free",
+    "expiresAt": 1789948644620,
+    "features": {
+      "maxDevices": 3,
+      "maxIps": 3,
+      "syncEnabled": true,
+      "syncQuota": 500,
+      "publishEnabled": true,
+      "maxSites": 3,
+      "maxStorage": 10240,
+      "customDomain": true,
+      "customSubDomain": true,
+      "validityDays": 7
+    },
+    "activatedAt": 1789343845046
+  },
+  "licenseSync": {
+    "enabled": true,
+    "endpoint": "https://cdb.sunwei.xyz",
+    "dbName": "userdb-bceb42c800544fdc",
+    "email": "yv9n-3n93-pxdz@mdfriday.com",
+    "dbPassword": "eXY5bi0zbjkzLXB4ZHo="
+  },
+  "licenseUser": {
+    "email": "yv9n-3n93-pxdz@mdfriday.com",
+    "userDir": "bceb42c800"
+  },
+  "licenseUsage": {
+    "totalDiskUsage": 0,
+    "maxStorage": 10240,
+    "unit": "MB",
+    "lastUpdated": 1789343845144
+  },
+  "encryptionPassphrase": "Ef9IciLXga25pth6ZDsGQo8n",
+  "syncEnabled": true,
+  "syncUserEnabled": true,
+  "syncConfig": {
+    "couchDB_URI": "https://cdb.sunwei.xyz",
+    "couchDB_USER": "yv9n-3n93-pxdz@mdfriday.com",
+    "couchDB_PASSWORD": "eXY5bi0zbjkzLXB4ZHo=",
+    "couchDB_DBNAME": "userdb-bceb42c800544fdc",
+    "encrypt": true,
+    "passphrase": "Ef9IciLXga25pth6ZDsGQo8n",
+    "usePathObfuscation": false,
+    "liveSync": true,
+    "syncOnStart": true,
+    "syncOnSave": true,
+    "ignorePatterns": [],
+    "selectiveSync": {
+      "syncImages": false,
+      "syncAudio": false,
+      "syncVideo": false,
+      "syncPdf": false,
+      "syncThemes": false,
+      "syncSnippets": false,
+      "syncPlugins": false
+    },
+    "syncInternalFilesIgnorePatterns": "\\.obsidian\\/workspace, \\.obsidian\\/workspace\\.json, \\.obsidian\\/workspace-mobile\\.json, \\.obsidian\\/cache, \\/node_modules\\/, \\/\\.git\\/, ^\\.git\\/, plugins\\/mdfriday-sync, \\.obsidian\\/themes, \\.obsidian\\/snippets, \\.obsidian\\/plugins"
+  },
+  "showEditorStatusDisplay": false,
+  "enterpriseServerUrl": "https://app.sunwei.xyz"
+}

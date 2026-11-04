@@ -1,0 +1,55 @@
+{
+  "baseURL": "/",
+  "title": "MDFriday Help",
+  "contentDir": "content",
+  "publishDir": "public",
+  "defaultContentLanguage": "en",
+  "taxonomies": {
+    "tag": "tags",
+    "category": "categories"
+  },
+  "module": {
+    "imports": [
+      {
+        "path": "https://cdn.mdfriday.com/t/quartz/1.0.3/pack.zip?version=1.0.3"
+      }
+    ]
+  },
+  "markdown": {
+    "useInternalRenderer": true
+  },
+  "params": {
+    "branding": true,
+    "search": {
+      "enable": true,
+      "variant": "inline",
+      "trigger": "sidebar",
+      "content": true,
+      "cjk": true
+    },
+    "explorer": true,
+    "graph": true,
+    "clipboard": true,
+    "toc": {
+      "variant": "interactive"
+    },
+    "breadcrumbs": true,
+    "readerMode": true,
+    "mdfriday": {
+      "family": "quartz",
+      "variant": "quartz",
+      "version": "1.0.3"
+    },
+    "password": "",
+    "lastPublishUrl": "https://share.mdfriday.com/s/tlR9k0/index.html"
+  },
+  "publish": {
+    "method": "cloudflare"
+  },
+  "languages": {
+    "en": {
+      "contentDir": "content",
+      "weight": 1
+    }
+  }
+}

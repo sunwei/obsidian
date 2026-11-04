@@ -1,0 +1,108 @@
+{
+  "projectId": "test-mu7laaai",
+  "publishMethod": "cloudflare",
+  "lastPublishTime": 1789774096359,
+  "remoteConfig": {
+    "projectId": "p_3a26ff41b36970fcfc50b5b5aaf9a7c3",
+    "hostingMode": "share",
+    "siteId": "ouZWHP"
+  },
+  "files": {
+    "assets/01dcbad1bac635f9c9cd.woff2": {
+      "hash": "e564f652916db6c139570fefb9524a77c4d48f30c92928de9db19b6b5c7a262a",
+      "size": 387976,
+      "mtime": 1789774095566.1506,
+      "relativePath": "assets/01dcbad1bac635f9c9cd.woff2"
+    },
+    "assets/05b618077343fbbd92b7.ttf": {
+      "hash": "a0cfec834df50e21cdb3d15bf93e87ed033d8c26693f9ede6efe24325ae22c9e",
+      "size": 155288,
+      "mtime": 1789774095563.9578,
+      "relativePath": "assets/05b618077343fbbd92b7.ttf"
+    },
+    "assets/2308ab1944a6bfa5c5b8.svg": {
+      "hash": "a44ac4cbf79c6765f4bdc3a0dc3fb51b56ed5eb4679177f0a40f04b63b3e3a3c",
+      "size": 278,
+      "mtime": 1789774095567.1465,
+      "relativePath": "assets/2308ab1944a6bfa5c5b8.svg"
+    },
+    "assets/454577c22304619db035.ttf": {
+      "hash": "ba51b929995b3088ff1932d9d6835c90ccf304b296a3b8e103d2e95b958109ee",
+      "size": 161376,
+      "mtime": 1789774095562.3848,
+      "relativePath": "assets/454577c22304619db035.ttf"
+    },
+    "assets/4bb6ac751d1c5478ff3a.woff2": {
+      "hash": "81d33d08a96d99034c41b49ac980f63b353175f919db817d74e0405749af03db",
+      "size": 7876,
+      "mtime": 1789774095564.6033,
+      "relativePath": "assets/4bb6ac751d1c5478ff3a.woff2"
+    },
+    "assets/52ac8f3034507f1d9e53.ttf": {
+      "hash": "839f42df29a5a83470888b9a3aa4064fc1bc35e6616bb542226d89086f019ec5",
+      "size": 191568,
+      "mtime": 1789774095563.0461,
+      "relativePath": "assets/52ac8f3034507f1d9e53.ttf"
+    },
+    "assets/6155340132a851f6089e.svg": {
+      "hash": "a7c6a118d17f6a296037b519e9891e08951de59c289fe41ec2596a63c3b28516",
+      "size": 315,
+      "mtime": 1789774095566.681,
+      "relativePath": "assets/6155340132a851f6089e.svg"
+    },
+    "assets/70cc7ff27245e82ad414.ttf": {
+      "hash": "6e5dd0494f63d85970156cd54b6ac568b82a392d135db08bbf5cc3048d489aa9",
+      "size": 192740,
+      "mtime": 1789774095561.2537,
+      "relativePath": "assets/70cc7ff27245e82ad414.ttf"
+    },
+    "assets/c504db5c06caaf7cdfba.woff2": {
+      "hash": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "size": 352240,
+      "mtime": 1789774095565.3853,
+      "relativePath": "assets/c504db5c06caaf7cdfba.woff2"
+    },
+    "index.html": {
+      "hash": "7e0afe3b0ddc0ceb513efc6af367d3debf11ad0bdde1cdbdf1b93c7092b477cc",
+      "size": 1554991,
+      "mtime": 1789774095722.0393,
+      "relativePath": "index.html"
+    },
+    "theme-snapshot/obsidian-core.css": {
+      "hash": "39179b60a10013aa35b8a6565f9051246c4f6fb82d2c57eacc45ca4ea0756d82",
+      "size": 637034,
+      "mtime": 1789774095711.2683,
+      "relativePath": "theme-snapshot/obsidian-core.css"
+    },
+    "theme-snapshot/runtime.css": {
+      "hash": "4c24bb24547f6a3c94d4d8cdae7677cee61e9b3f4341eec291bc0316a7010bbe",
+      "size": 468883,
+      "mtime": 1789774095712.3416,
+      "relativePath": "theme-snapshot/runtime.css"
+    },
+    "theme-snapshot/snapshot.json": {
+      "hash": "c6ffae4b987bc22462cca65da6940b4f0534706fc68de18ca6541df169ce73dd",
+      "size": 154,
+      "mtime": 1789774095712.78,
+      "relativePath": "theme-snapshot/snapshot.json"
+    },
+    "theme-snapshot/snippets.css": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "mtime": 1789774095706.872,
+      "relativePath": "theme-snapshot/snippets.css"
+    },
+    "theme-snapshot/theme.css": {
+      "hash": "83ba4f6646f79bdc38920fd074c6734d7e6833f97184c0cb001f4eebef3231d7",
+      "size": 370085,
+      "mtime": 1789774095705.9001,
+      "relativePath": "theme-snapshot/theme.css"
+    },
+    "theme-snapshot/vars.css": {
+      "hash": "8f63d191f675bc7751511218124793eca2dda16ef92b9f8c277f9e5143004d7e",
+      "size": 31,
+      "mtime": 1789774095708.4104,
+      "relativePath": "theme-snapshot/vars.css"
+    }
+  }
+}

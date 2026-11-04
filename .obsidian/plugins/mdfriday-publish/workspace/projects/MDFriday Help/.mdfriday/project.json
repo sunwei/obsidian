@@ -1,0 +1,36 @@
+{
+  "id": "mdfriday-help-mu7v2b4w",
+  "name": "MDFriday Help",
+  "type": "site",
+  "createdAt": 1789790519266,
+  "updatedAt": 1789797525967,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "buildHistory": [
+    {
+      "timestamp": 1789797519703,
+      "type": "build",
+      "success": true,
+      "duration": 6264
+    },
+    {
+      "timestamp": 1789791051025,
+      "type": "build",
+      "success": true,
+      "duration": 5869
+    }
+  ],
+  "contentLinks": [
+    {
+      "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/sites/MDFriday Help",
+      "languageCode": "en",
+      "weight": 0
+    }
+  ],
+  "cloudflare": {
+    "cloudflareProjectId": "p_ea3b481b1e057bbdbe45a4547d7a08ae",
+    "hostingMode": "share",
+    "boundAt": 1789791050833,
+    "siteId": "tlR9k0",
+    "publicBaseUrl": "https://share.mdfriday.com"
+  }
+}

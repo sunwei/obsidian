@@ -1,0 +1,13 @@
+{
+  "id": "trip-2027-mucfr6ia",
+  "name": "Trip 2027",
+  "type": "site",
+  "createdAt": 1790067136691,
+  "updatedAt": 1790067136691,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "fileLink": {
+    "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/Share Note/Trip 2027.md",
+    "targetPath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Trip 2027/content/index.md",
+    "isSymlink": true
+  }
+}

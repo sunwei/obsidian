@@ -1,0 +1,36 @@
+{
+  "id": "help-mu7ninw1",
+  "name": "Help",
+  "type": "site",
+  "createdAt": 1789777845362,
+  "updatedAt": 1789778213451,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "buildHistory": [
+    {
+      "timestamp": 1789778205504,
+      "type": "build",
+      "success": true,
+      "duration": 7783
+    },
+    {
+      "timestamp": 1789777919641,
+      "type": "build",
+      "success": true,
+      "duration": 9674
+    }
+  ],
+  "contentLinks": [
+    {
+      "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/Help",
+      "languageCode": "en",
+      "weight": 0
+    }
+  ],
+  "cloudflare": {
+    "cloudflareProjectId": "p_96f3dbe01b098a4eaa7fb9da4e743f01",
+    "hostingMode": "share",
+    "boundAt": 1789777919467,
+    "siteId": "GfifWM",
+    "publicBaseUrl": "https://share.mdfriday.com"
+  }
+}

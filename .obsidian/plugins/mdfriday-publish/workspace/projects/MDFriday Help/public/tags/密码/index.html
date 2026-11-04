@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- base-head -->
+
+<title>密码 | MDFriday Help</title>
+
+<meta name="description" content="">
+<meta name="author" content="MDFriday">
+
+<link rel="canonical" href="https://share.mdfriday.com/s/tlR9k0/tags/密码/index.html"><link rel="icon" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/favicon.svg
+">
+<meta property="og:title" content="密码" />
+<meta property="og:url" content="https://share.mdfriday.com/s/tlR9k0/tags/密码/index.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="MDFriday Help" />
+
+
+<link rel="stylesheet" href="https://cdn.mdfriday.com/t/quartz/1.0.3/css/quartz.css">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/clipboard.css
+">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/callout.css
+">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/graph.css
+">
+<meta name="theme-color" content="#faf8f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
+
+<!-- base-math: KaTeX global load — Foundry built-in, always-on -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+      crossorigin="anonymous">
+<script defer
+        src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+        crossorigin="anonymous"></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+
+
+
+</head>
+
+<body>
+<script>
+(function() {
+    var saved = localStorage.getItem('mdf-theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = saved || (prefersDark ? 'dark' : 'light');
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
+
+
+
+<main id="main-content"><div class="page">
+    <div id="quartz-body">
+        <aside class="sidebar left"><h1 class="page-title">
+    <a href="https://share.mdfriday.com/s/tlR9k0/index.html">MDFriday Help</a>
+</h1>
+
+<div class="spacer mobile-only"></div>
+
+<div class="flex-component" style="display: flex; flex-direction: row; gap: 0.5rem; align-items: center;">
+    <div style="flex-grow: 1; flex-shrink: 1; min-width: 0;">
+<div class="search">
+    <button class="search-button" aria-label="Search" type="button">
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+            <title>Search</title>
+            <g class="search-path" fill="none">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                <circle cx="8" cy="8" r="7" />
+            </g>
+        </svg>
+        <p>Search</p>
+    </button>
+    <div class="search-container">
+        <div class="search-space">
+            <input
+                autocomplete="off"
+                class="search-bar"
+                name="search"
+                type="text"
+                aria-label="Search for something..."
+                placeholder="Search for something..."
+            />
+            <div class="search-layout" data-preview="true"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+    <div style="flex-grow: 0; flex-shrink: 0;"><div class="darkmode">
+    <button 
+        id="darkmode-toggle" 
+        class="darkmode-toggle"
+        aria-label="Toggle dark mode"
+        title="Toggle dark mode">
+        <svg class="sun-icon" width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <circle cx="10" cy="10" r="3" fill="currentColor"/>
+            <line x1="10" y1="2" x2="10" y2="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="10" y1="16" x2="10" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="2" y1="10" x2="4" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="16" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="4.34" y1="4.34" x2="5.76" y2="5.76" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="14.24" y1="14.24" x2="15.66" y2="15.66" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="4.34" y1="15.66" x2="5.76" y2="14.24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="14.24" y1="5.76" x2="15.66" y2="4.34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="moon-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" style="display: none;">
+            <path d="M17.5 11.5A7.5 7.5 0 0 1 9 3.5c0-.5.1-1 .2-1.5A8.5 8.5 0 1 0 18.5 11c-.5.1-1 .2-1.5.2-.2 0-.3 0-.5.3z" fill="currentColor"/>
+        </svg>
+    </button>
+</div>
+
+</div></div><div class="explorer" 
+     data-behavior="link" 
+     data-collapsed="collapsed" 
+     data-savestate="true">
+    
+    
+    <button type="button" 
+            class="explorer-toggle mobile-explorer hide-until-loaded" 
+            data-mobile="true"
+            aria-controls="explorer-content"
+            aria-label="Toggle Explorer">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="24" 
+             height="24" 
+             viewBox="0 0 24 24" 
+             stroke-width="2" 
+             stroke="currentColor"
+             fill="none"
+             stroke-linecap="round" 
+             stroke-linejoin="round" 
+             class="lucide-menu">
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+        </svg>
+    </button>
+    
+    
+    <button type="button" 
+            class="title-button explorer-toggle desktop-explorer" 
+            data-mobile="false"
+            aria-expanded="true"
+            aria-label="Toggle Explorer">
+        <h2>Explorer</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="14" 
+             height="14" 
+             viewBox="5 8 14 8" 
+             fill="none" 
+             stroke="currentColor" 
+             stroke-width="2" 
+             stroke-linecap="round" 
+             stroke-linejoin="round" 
+             class="fold">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </button>
+    
+    
+    <div id="explorer-content" 
+         class="explorer-content" 
+         aria-expanded="false" 
+         role="group">
+        <ul class="explorer-ul"></ul>
+    </div>
+    
+    
+    <template id="template-file">
+        <li>
+            <a href="#"></a>
+        </li>
+    </template>
+    
+    <template id="template-folder">
+        <li>
+            <div class="folder-container">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     width="12" 
+                     height="12" 
+                     viewBox="5 8 14 8" 
+                     fill="none" 
+                     stroke="currentColor" 
+                     stroke-width="2" 
+                     stroke-linecap="round" 
+                     stroke-linejoin="round" 
+                     class="folder-icon">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <div>
+                    <button class="folder-button">
+                        <span class="folder-title"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="folder-outer">
+                <ul class="content"></ul>
+            </div>
+        </li>
+    </template>
+</div>
+
+</aside>
+        <div class="center">
+            <div class="page-header">
+                <div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs">
+    <ul class="breadcrumbs">
+        
+        <li class="breadcrumb-element">
+            <a href="https://share.mdfriday.com/s/tlR9k0/index.html">Home</a>
+            <p aria-hidden="true"> ❯ </p>
+        </li>
+        
+        
+                <li class="breadcrumb-element">
+                    <a href="https://share.mdfriday.com/s/tlR9k0/tags/">Tags</a>
+                    <p aria-hidden="true"> ❯ </p>
+                </li>
+                <li class="breadcrumb-element">
+                    <a href="https://share.mdfriday.com/s/tlR9k0/tags/密码/">密码</a>
+                    <p aria-hidden="true"> ❯ </p>
+                </li>
+                <li class="breadcrumb-element">
+                    <a href="https://share.mdfriday.com/s/tlR9k0/tags/密码/index.html">密码</a>
+                </li></ul>
+</nav></div>
+            </div>
+            <article class="popover-hint"><div class="page-listing"><p>
+        1&nbsp;item under this folder</p><ul class="section-ul"><li class="section-li">
+            <div class="section">
+                <p class="meta">
+                    <time datetime="9/19/2026">
+                        9/19/2026
+                    </time>
+                </p>
+
+                <div class="desc">
+                    <h3>
+                        <a href="https://share.mdfriday.com/s/tlR9k0/publish/password.html" class="internal">访问密码</a>
+                    </h3>
+                </div><ul class="tags"><li>
+                        <a class="internal tag-link" href="/tags//">
+                            安全
+                        </a>
+                    </li><li>
+                        <a class="internal tag-link" href="/tags//">
+                            密码
+                        </a>
+                    </li></ul></div>
+        </li></ul>
+</div></article>
+        </div>
+        <aside class="sidebar right"><div class="graph">
+  <h3>Graph View</h3>
+  <div class="graph-outer">
+    <div class="graph-container" data-cfg='{"drag":true,"zoom":true,"depth":1,"scale":1.1,"repelForce":0.5,"centerForce":0.3,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"showTags":true,"removeTags":[],"focusOnHover":false,"enableRadial":false}'></div>
+    <button class="global-graph-icon" aria-label="Global Graph" title="Global Graph">
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 55 55"
+        fill="currentColor"
+        xml:space="preserve"
+      >
+        <path
+          d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+          s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+          c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+          C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+          c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+          v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+          s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+          C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+          S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+          s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+          s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div class="global-graph-outer">
+    <div class="global-graph-container" data-cfg='{"drag":true,"zoom":true,"depth":-1,"scale":0.9,"repelForce":0.5,"centerForce":0.2,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"showTags":true,"removeTags":[],"focusOnHover":true,"enableRadial":true}'></div>
+  </div>
+</div>
+
+</aside>
+<footer>
+    <p>
+        Built with
+        <a href="https://github.com/mdfriday">MDFriday</a>
+        <br/>2026 All Rights Reserved.
+    </p></footer>
+
+</div>
+</div>
+</main>
+
+
+  
+
+
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/katex/katex-render.js
+"></script>
+
+
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/mermaid/mermaid-render.js
+"></script>
+
+
+
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/darkmode.js
+" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/readermode.js
+" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/callout.js
+" defer></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.5.0/dist/floating-ui.core.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.5.3/dist/floating-ui.dom.umd.min.js" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/popover.js
+" defer></script>
+
+
+<script>
+(function() {
+  var pages = [{"slug":"index","displayPath":"index","url":"https://share.mdfriday.com/s/tlR9k0/index.html","title":"MDFriday Publish 帮助","section":""},{"slug":"get-started","displayPath":"get-started","url":"https://share.mdfriday.com/s/tlR9k0/get-started.html","title":"安装与首次发布","section":""},{"slug":"concepts","displayPath":"concepts","url":"https://share.mdfriday.com/s/tlR9k0/concepts.html","title":"和 Obsidian Publish / Quartz 的差异","section":""},{"slug":"publish","displayPath":"publish","url":"https://share.mdfriday.com/s/tlR9k0/publish/index.html","title":"发布","section":"publish"},{"slug":"publish/publish-note","displayPath":"publish/publish-note","url":"https://share.mdfriday.com/s/tlR9k0/publish/publish-note.html","title":"发布一篇笔记","section":"publish"},{"slug":"publish/publish-folder","displayPath":"publish/publish-folder","url":"https://share.mdfriday.com/s/tlR9k0/publish/publish-folder.html","title":"发布文件夹（Wiki）","section":"publish"},{"slug":"publish/modes","displayPath":"publish/modes","url":"https://share.mdfriday.com/s/tlR9k0/publish/modes.html","title":"发布模式","section":"publish"},{"slug":"publish/local-preview","displayPath":"publish/local-preview","url":"https://share.mdfriday.com/s/tlR9k0/publish/local-preview.html","title":"本地预览","section":"publish"},{"slug":"publish/quick-share","displayPath":"publish/quick-share","url":"https://share.mdfriday.com/s/tlR9k0/publish/quick-share.html","title":"快速分享","section":"publish"},{"slug":"publish/right-panel","displayPath":"publish/right-panel","url":"https://share.mdfriday.com/s/tlR9k0/publish/right-panel.html","title":"右侧面板","section":"publish"},{"slug":"publish/password","displayPath":"publish/password","url":"https://share.mdfriday.com/s/tlR9k0/publish/password.html","title":"访问密码","section":"publish"},{"slug":"publish/custom-domain","displayPath":"publish/custom-domain","url":"https://share.mdfriday.com/s/tlR9k0/publish/custom-domain.html","title":"自定义域名","section":"publish"},{"slug":"publish/history","displayPath":"publish/history","url":"https://share.mdfriday.com/s/tlR9k0/publish/history.html","title":"发布历史与回滚","section":"publish"},{"slug":"publish/unpublish","displayPath":"publish/unpublish","url":"https://share.mdfriday.com/s/tlR9k0/publish/unpublish.html","title":"撤销发布","section":"publish"},{"slug":"themes","displayPath":"themes","url":"https://share.mdfriday.com/s/tlR9k0/themes/index.html","title":"主题","section":"themes"},{"slug":"themes/choose-theme","displayPath":"themes/choose-theme","url":"https://share.mdfriday.com/s/tlR9k0/themes/choose-theme.html","title":"如何选用主题","section":"themes"},{"slug":"themes/notes-themes","displayPath":"themes/notes-themes","url":"https://share.mdfriday.com/s/tlR9k0/themes/notes-themes.html","title":"Notes（单页）主题","section":"themes"},{"slug":"themes/wiki-quartz","displayPath":"themes/wiki-quartz","url":"https://share.mdfriday.com/s/tlR9k0/themes/wiki-quartz.html","title":"Wiki / Quartz 主题","section":"themes"},{"slug":"plans","displayPath":"plans","url":"https://share.mdfriday.com/s/tlR9k0/plans/index.html","title":"计划与配额","section":"plans"},{"slug":"plans/guest-free-personal","displayPath":"plans/guest-free-personal","url":"https://share.mdfriday.com/s/tlR9k0/plans/guest-free-personal.html","title":"Guest / Free / Personal","section":"plans"},{"slug":"plans/claim-and-upgrade","displayPath":"plans/claim-and-upgrade","url":"https://share.mdfriday.com/s/tlR9k0/plans/claim-and-upgrade.html","title":"认领 Guest 与升级","section":"plans"},{"slug":"settings","displayPath":"settings","url":"https://share.mdfriday.com/s/tlR9k0/settings/index.html","title":"设置","section":"settings"},{"slug":"settings/credentials","displayPath":"settings/credentials","url":"https://share.mdfriday.com/s/tlR9k0/settings/credentials.html","title":"Credential（mdf key）","section":"settings"},{"slug":"faq","displayPath":"faq","url":"https://share.mdfriday.com/s/tlR9k0/faq.html","title":"常见问题","section":""},{"slug":"troubleshooting","displayPath":"troubleshooting","url":"https://share.mdfriday.com/s/tlR9k0/troubleshooting.html","title":"排查清单","section":""},{"slug":"_manifest","displayPath":"_manifest","url":"https://share.mdfriday.com/s/tlR9k0/_manifest.html","title":"MDFriday Help · Manifest","section":""},{"slug":"categories","displayPath":"categories","url":"https://share.mdfriday.com/s/tlR9k0/categories/index.html","title":"category","section":"categories"},{"slug":"tags","displayPath":"tags","url":"https://share.mdfriday.com/s/tlR9k0/tags/index.html","title":"tag","section":"tags"},{"slug":"tags/faq","displayPath":"tags/faq","url":"https://share.mdfriday.com/s/tlR9k0/tags/faq/index.html","title":"FAQ","section":"tags"},{"slug":"tags/free","displayPath":"tags/free","url":"https://share.mdfriday.com/s/tlR9k0/tags/free/index.html","title":"Free","section":"tags"},{"slug":"tags/guest","displayPath":"tags/guest","url":"https://share.mdfriday.com/s/tlR9k0/tags/guest/index.html","title":"Guest","section":"tags"},{"slug":"tags/notes","displayPath":"tags/notes","url":"https://share.mdfriday.com/s/tlR9k0/tags/notes/index.html","title":"Notes","section":"tags"},{"slug":"tags/personal","displayPath":"tags/personal","url":"https://share.mdfriday.com/s/tlR9k0/tags/personal/index.html","title":"Personal","section":"tags"},{"slug":"tags/quartz","displayPath":"tags/quartz","url":"https://share.mdfriday.com/s/tlR9k0/tags/quartz/index.html","title":"Quartz","section":"tags"},{"slug":"tags/ui","displayPath":"tags/ui","url":"https://share.mdfriday.com/s/tlR9k0/tags/ui/index.html","title":"UI","section":"tags"},{"slug":"tags/wiki","displayPath":"tags/wiki","url":"https://share.mdfriday.com/s/tlR9k0/tags/wiki/index.html","title":"Wiki","section":"tags"},{"slug":"tags/主题","displayPath":"tags/主题","url":"https://share.mdfriday.com/s/tlR9k0/tags/主题/index.html","title":"主题","section":"tags"},{"slug":"tags/入门","displayPath":"tags/入门","url":"https://share.mdfriday.com/s/tlR9k0/tags/入门/index.html","title":"入门","section":"tags"},{"slug":"tags/凭证","displayPath":"tags/凭证","url":"https://share.mdfriday.com/s/tlR9k0/tags/凭证/index.html","title":"凭证","section":"tags"},{"slug":"tags/分享","displayPath":"tags/分享","url":"https://share.mdfriday.com/s/tlR9k0/tags/分享/index.html","title":"分享","section":"tags"},{"slug":"tags/单篇","displayPath":"tags/单篇","url":"https://share.mdfriday.com/s/tlR9k0/tags/单篇/index.html","title":"单篇","section":"tags"},{"slug":"tags/历史","displayPath":"tags/历史","url":"https://share.mdfriday.com/s/tlR9k0/tags/历史/index.html","title":"历史","section":"tags"},{"slug":"tags/发布","displayPath":"tags/发布","url":"https://share.mdfriday.com/s/tlR9k0/tags/发布/index.html","title":"发布","section":"tags"},{"slug":"tags/命令","displayPath":"tags/命令","url":"https://share.mdfriday.com/s/tlR9k0/tags/命令/index.html","title":"命令","section":"tags"},{"slug":"tags/域名","displayPath":"tags/域名","url":"https://share.mdfriday.com/s/tlR9k0/tags/域名/index.html","title":"域名","section":"tags"},{"slug":"tags/安全","displayPath":"tags/安全","url":"https://share.mdfriday.com/s/tlR9k0/tags/安全/index.html","title":"安全","section":"tags"},{"slug":"tags/安装","displayPath":"tags/安装","url":"https://share.mdfriday.com/s/tlR9k0/tags/安装/index.html","title":"安装","section":"tags"},{"slug":"tags/定价","displayPath":"tags/定价","url":"https://share.mdfriday.com/s/tlR9k0/tags/定价/index.html","title":"定价","section":"tags"},{"slug":"tags/密码","displayPath":"tags/密码","url":"https://share.mdfriday.com/s/tlR9k0/tags/密码/index.html","title":"密码","section":"tags"},{"slug":"tags/对比","displayPath":"tags/对比","url":"https://share.mdfriday.com/s/tlR9k0/tags/对比/index.html","title":"对比","section":"tags"},{"slug":"tags/导航","displayPath":"tags/导航","url":"https://share.mdfriday.com/s/tlR9k0/tags/导航/index.html","title":"导航","section":"tags"},{"slug":"tags/排查","displayPath":"tags/排查","url":"https://share.mdfriday.com/s/tlR9k0/tags/排查/index.html","title":"排查","section":"tags"},{"slug":"tags/撤销","displayPath":"tags/撤销","url":"https://share.mdfriday.com/s/tlR9k0/tags/撤销/index.html","title":"撤销","section":"tags"},{"slug":"tags/文件夹","displayPath":"tags/文件夹","url":"https://share.mdfriday.com/s/tlR9k0/tags/文件夹/index.html","title":"文件夹","section":"tags"},{"slug":"tags/概念","displayPath":"tags/概念","url":"https://share.mdfriday.com/s/tlR9k0/tags/概念/index.html","title":"概念","section":"tags"},{"slug":"tags/模式","displayPath":"tags/模式","url":"https://share.mdfriday.com/s/tlR9k0/tags/模式/index.html","title":"模式","section":"tags"},{"slug":"tags/计划","displayPath":"tags/计划","url":"https://share.mdfriday.com/s/tlR9k0/tags/计划/index.html","title":"计划","section":"tags"},{"slug":"tags/设置","displayPath":"tags/设置","url":"https://share.mdfriday.com/s/tlR9k0/tags/设置/index.html","title":"设置","section":"tags"},{"slug":"tags/面板","displayPath":"tags/面板","url":"https://share.mdfriday.com/s/tlR9k0/tags/面板/index.html","title":"面板","section":"tags"},{"slug":"tags/预览","displayPath":"tags/预览","url":"https://share.mdfriday.com/s/tlR9k0/tags/预览/index.html","title":"预览","section":"tags"},{"slug":"videos","displayPath":"videos","url":"https://share.mdfriday.com/s/tlR9k0/videos/index.html","title":"Videos","section":"videos"},{"slug":"videos/placeholder-publish-demo","displayPath":"videos/placeholder-publish-demo","url":"https://share.mdfriday.com/s/tlR9k0/videos/placeholder-publish-demo.html","title":"占位 · 发布演示视频","section":"videos"}];
+
+  window.__MDF_SEARCH__ = {
+    baseURLPath: "s/tlR9k0",
+    pages: pages,content: {"index": {"slug":"index","url":"https://share.mdfriday.com/s/tlR9k0/index.html","title":"MDFriday Publish 帮助","content":"---\ntitle: MDFriday Publish 帮助\nweight: 1\ntags: [导航, 入门]\ndate: 2026-09-19\n---\n\n# 欢迎使用 MDFriday Publish\n\n**MDFriday Publish**（插件 id：`mdfriday-publish`）把 Obsidian 里的**一篇笔记**或**一个文件夹**变成可分享的静态网站。构建在本地完成，云端只托管构建产物，并通过全球 CDN 加速。\n\n\u003e [!info] 版本与平台\n\u003e 当前文档对齐插件 **v26.9.4**（以你库里 `manifest.json` 为准）。**仅桌面端**（`isDesktopOnly: true`），移动端不可用。\n\n## 你能用它做什么\n\n| 我想… | 去做 |\n| --- | --- |\n| 分享**一篇笔记**链接 | [[publish/publish-note\\|发布一篇笔记]] |\n| 把文件夹做成 **Wiki / 数字花园** | [[publish/publish-folder\\|发布文件夹（Wiki）]] |\n| 先看效果再上线 | [[publish/local-preview\\|本地预览]] |\n| 最快发出去 | [[publish/quick-share\\|快速分享]] |\n| 选外观（原样 / 单页主题 / Quartz） | [[themes/_index\\|主题]] · [[publish/modes\\|发布模式]] |\n| 加访问密码 / 自定义域名 | [[publish/password\\|访问密码]] · [[publish/custom-domain\\|自定义域名]] |\n| 弄清免费与付费边界 | [[plans/_index\\|计划与配额]] |\n| 出了问题 | [[troubleshooting\\|排查清单]] · [[faq\\|常见问题]] |\n\n## 30 秒导航\n\n1. [[get-started|安装与首次发布]] — 从社区插件装好，右键发布\n2. [[concepts|和 Obsidian Publish / Quartz 有何不同]] — 诚实对比\n3. [[publish/_index|发布怎么做]] — 按场景的操作手册\n4. [[settings/_index|设置]] — 目前主要是 Credential（mdf key）\n\n## 官方链接\n\n- 官网：\u003chttps://mdfriday.com\u003e\n- 产品页：\u003chttps://mdfriday.com/products/obsidian-publish/\u003e\n- 定价：\u003chttps://mdfriday.com/pricing/\u003e\n- 分享单篇方案：\u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n- 数字花园方案：\u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n- 知识库（历史站点，内容可能偏旧版 Friday）：\u003chttps://help.mdfriday.com\u003e\n- 社区 Discord：\u003chttps://discord.gg/t7FHJ6qNzT\u003e\n- 社区插件搜索：`mdfriday-publish` → \u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e\n\n\u003e [!tip] 和「Friday Sync」的关系\n\u003e 同步能力在独立仓库 / 插件 **Obsidian Sync（MDFriday）** 中。本帮助**只写 Publish**。除非你在本插件里仍看到账号 / License 相关入口，否则不要按旧版「Friday Help」的 Sync 章节操作。\n\n\u003c!-- MEDIA: screenshot — 帮助首页导航结构 --\u003e\n![占位：帮助首页](images/placeholder-help-home.png)\n","tagNames":["导航","入门"],"links":["publish/publish-note","publish/publish-folder","publish/local-preview","publish/quick-share","themes","publish/modes","publish/password","publish/custom-domain","plans","troubleshooting","faq","get-started","concepts","publish","settings"],"tags":["tags/入门","tags/导航"]},"get-started": {"slug":"get-started","url":"https://share.mdfriday.com/s/tlR9k0/get-started.html","title":"安装与首次发布","content":"---\ntitle: 安装与首次发布\nweight: 10\ntags: [入门, 安装, Guest]\ndate: 2026-09-19\n---\n\n# 安装与首次发布\n\n## 目标\n\n在 Obsidian 桌面端装好 **MDFriday Publish**，用 **Guest（无需账号）** 路径发布一篇笔记，拿到可分享的公开链接。\n\n## 前置条件\n\n- Obsidian 桌面端（插件为 **desktop-only**；最低应用版本见 `manifest.json` 的 `minAppVersion`，当前为 **1.8.7**）\n- 能访问外网（首次 Guest 发布可能需在浏览器完成人机验证）\n- 一篇 Markdown 笔记，或一个准备公开的文件夹\n\n## 步骤\n\n### 1. 安装插件\n\n1. 打开 **设置 → 社区插件**，关闭安全模式（若尚未关闭）\n2. 浏览 / 搜索 **MDFriday Publish**（id：`mdfriday-publish`）\n3. 安装并**启用**\n\n也可从官网入口跳转：\u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e\n\n\u003c!-- MEDIA: screenshot — 社区插件搜索 MDFriday Publish --\u003e\n![占位：安装插件](images/placeholder-install-plugin.png)\n\n### 2. 打开右侧发布面板\n\n任选一种方式：\n\n- **右键**笔记或文件夹 → **「在 MDFriday 中打开」**（只打开配置面板，不立刻发布）\n- **右键** → **「发布到 MDFriday」**（打开面板并走发布流程）\n- 命令面板：**「快速分享」** 或 **「发布到 MDFriday」**\n\n右侧会出现 **MDFriday** 边栏（发布 | 历史）。\n\n\u003c!-- MEDIA: screenshot — 右键菜单「发布到 MDFriday」 --\u003e\n![占位：发布菜单](images/placeholder-publish-menu.png)\n\n### 3. 首次 Guest 发布（无需账号）\n\n1. 确认发布对象是当前笔记 / 文件夹\n2. 单篇默认多为 **原样发布**；文件夹固定为 **Wiki 发布**（详见 [[publish/modes|发布模式]]）\n3. 可选：点 **预览**，先在本机浏览器看效果（[[publish/local-preview|本地预览]]）\n4. 点 **发布**。若是 Guest 且尚未验证，按钮可能显示 **「验证并发布」**\n5. 按提示前往 **mdfriday.com** 完成 Turnstile 人机验证，再回到 Obsidian 继续\n6. 成功后复制公开 URL 分享\n\n\u003c!-- MEDIA: video — 一键发布演示 --\u003e\n![占位：发布演示视频](videos/placeholder-publish-demo.md)\n\n\u003e [!info] Credential 会自动签发\n\u003e 首次发布会自动创建 **mdf key**（Guest 或后续用户凭证）。设置页可查看 / 复制，用于账号认领或换设备。详见 [[settings/credentials|Credential（mdf key）]]。\n\n## 结果确认\n\n- 面板出现 **「发布成功」**，有可打开 / 复制的 URL（生产环境分享域一般为 `https://share.mdfriday.com/...`）\n- 项目状态变为 **已发布**\n- Guest：内容会在**下一个 UTC 00:00** 清空（认领 Free 可保留同一 URL）— 见 [[plans/guest-free-personal|Guest / Free / Personal]]\n\n## 相关链接\n\n- [[publish/publish-note|发布一篇笔记]]\n- [[publish/publish-folder|发布文件夹]]\n- [[plans/claim-and-upgrade|认领 Guest 与升级]]\n- [[troubleshooting|排查清单]]\n\n## 常见失败\n\n| 现象 | 可能原因 | 去看 |\n| --- | --- | --- |\n| 移动端找不到插件能力 | 桌面端专用 | [[faq\\|FAQ · 桌面端]] |\n| 卡在「验证并发布」 | 未完成 Turnstile 或未回到 Obsidian | [[troubleshooting\\|排查]] |\n| 发布失败 · 站点上限 | Guest 仅 **1** 个站点（以插件文案为准） | [[plans/guest-free-personal\\|计划]] |\n| 预览空白 / 构建失败 | 附件路径、主题、端口占用等 | [[faq\\|FAQ]] · [[troubleshooting\\|排查]] |\n","tagNames":["入门","安装","Guest"],"links":["publish/modes","publish/local-preview","settings/credentials","plans/guest-free-personal","publish/publish-note","publish/publish-folder","plans/claim-and-upgrade","troubleshooting","faq"],"tags":["tags/guest","tags/安装","tags/入门"]},"concepts": {"slug":"concepts","url":"https://share.mdfriday.com/s/tlR9k0/concepts.html","title":"和 Obsidian Publish / Quartz 的差异","content":"---\ntitle: 和 Obsidian Publish / Quartz 的差异\nweight: 20\ntags: [概念, 对比]\ndate: 2026-09-19\n---\n\n# 和 Obsidian Publish / Quartz 的差异\n\n\u003e [!quote] 写给选型中的你\n\u003e 下面只写**当前 MDFriday Publish 插件能兑现的事实**，不把官网路线图当成已上线能力。\n\n## 一句话\n\n| 方案 | 一句话 |\n| --- | --- |\n| **MDFriday Publish** | 在 Obsidian 里选笔记/文件夹 → 本地构建 → 一键上传到 MDFriday CDN；Guest 可无账号试用 |\n| **Obsidian Publish** | 官方托管阅读器；偏「库 / 站点」订阅式发布 |\n| **自建 Quartz** | 免费、能力强；需要 Node / 仓库 / CLI 或 CI |\n\n## 对照（诚实版）\n\n来源：官网产品页对比表 + 插件实现（Cloudflare 发布、原样/主题/Wiki 分叉）。\n\n| 维度 | MDFriday Publish | Obsidian Publish | 自建 Quartz / Hugo |\n| --- | --- | --- | --- |\n| 发布范围 | **单篇或文件夹**（你选什么发什么） | 偏整库 / 站点工作流 | 项目目录，需自己划边界 |\n| 构建位置 | **本地**构建；上传的是静态产物 | 托管侧为主 | 本地或 CI |\n| 源 Markdown 是否上传作编辑副本 | 产品定位：**源笔记留在设备**；云端托管构建输出 | 托管优先 | 通常进 Git 仓库 |\n| 本地预览 | ✓ 插件内本地服务 | — | ✓（自己起） |\n| 无账号试用 | ✓ **Guest** | 通常需要 Obsidian 账号与订阅 | 不涉及「账号试用」 |\n| 外观 | **原样发布**（贴近库内阅读视图）或 **Notes / Quartz 主题** | 官方阅读器外观 | 主题生态自运维 |\n| Wiki 能力 | 文件夹 → Quartz 系 Wiki 主题（图谱、双向链接等） | 官方功能集 | Quartz 原版你自己运维 |\n| 自定义域名 | **Personal** 计划（最多 3 个，自动 HTTPS） | 官方栈支持 | DIY |\n| 历史回滚 | **Personal** | 有限 / 产品相关 | Git DIY |\n| 运维负担 | 插件内完成；无需自备 CLI | 低（官方托管） | 高（工具链 + 配置） |\n\n## 两个发布行为（产品分叉）\n\n插件按选择类型分叉（见 `publish-config` 与 UI 文案）：\n\n1. **单篇笔记**\n   - **原样发布（faithful）**：默认推荐；尽量保留本地预览感（主题、社区插件渲染、CSS snippets）\n   - **单页主题（themed）**：选用 Notes 族主题（默认 slug：`paper`）\n2. **文件夹**\n   - **仅 Wiki 发布（themed）**：不能原样；需要 Wiki 引擎处理多页、双向链接与图谱（默认 slug：`quartz`）\n\n详见 [[publish/modes|发布模式]]、[[themes/_index|主题]]。\n\n## 和旧版「Friday」帮助的区别\n\n旧 **Friday Help** 常把 **Sync + Publish** 写在一起，并提到 Netlify / FTP / 大量 Hugo 主题导出等。\n\n当前 **MDFriday Publish**：\n\n- 发布方式以 **Cloudflare V2** 为主（`PublishMethod = 'cloudflare'`）\n- Guest → 分享链接是默认试用路径\n- README 仍提到 Netlify / FTP 为**遗留路径**；**本帮助不以它们为主路径**，避免教你走已弱化的流程\n- Sync 请看独立 Sync 产品，不要在本插件里找「整库实时同步」教程\n\n## 相关链接\n\n- [[get-started|安装与首次发布]]\n- \u003chttps://mdfriday.com/products/obsidian-publish/\u003e\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n","tagNames":["概念","对比"],"links":["publish/modes","themes","get-started"],"tags":["tags/对比","tags/概念"]},"publish": {"slug":"publish","url":"https://share.mdfriday.com/s/tlR9k0/publish/index.html","title":"发布","content":"---\ntitle: 发布\nweight: 30\ntags: [发布]\ndate: 2026-09-19\n---\n\n# 发布\n\n按「我要做什么」选一篇：\n\n| 目标 | 页面 |\n| --- | --- |\n| 发一篇笔记 | [[publish-note\\|发布一篇笔记]] |\n| 发一个文件夹 / Wiki | [[publish-folder\\|发布文件夹（Wiki）]] |\n| 搞懂原样 / 单页 / Wiki | [[modes\\|发布模式]] |\n| 本地先看效果 | [[local-preview\\|本地预览]] |\n| 最快分享当前笔记 | [[quick-share\\|快速分享]] |\n| 用右侧面板管项目 | [[right-panel\\|右侧面板]] |\n| 访问密码 | [[password\\|访问密码]] |\n| 自定义域名 | [[custom-domain\\|自定义域名]] |\n| 历史与回滚 | [[history\\|发布历史与回滚]] |\n| 下线公开站 | [[unpublish\\|撤销发布]] |\n\n\u003e [!tip] 入口文案（中文 UI）\n\u003e 右键菜单：**在 MDFriday 中打开** / **发布到 MDFriday**；命令：**快速分享**、**发布到 MDFriday**。\n","tagNames":["发布"],"links":["publish/publish-note","publish/publish-folder","publish/modes","publish/local-preview","publish/quick-share","publish/right-panel","publish/password","publish/custom-domain","publish/history","publish/unpublish"],"tags":["tags/发布"]},"publish/publish-note": {"slug":"publish/publish-note","url":"https://share.mdfriday.com/s/tlR9k0/publish/publish-note.html","title":"发布一篇笔记","content":"---\ntitle: 发布一篇笔记\nweight: 31\ntags: [发布, 单篇]\ndate: 2026-09-19\n---\n\n# 发布一篇笔记\n\n## 目标\n\n把**当前这一篇** Markdown 变成公开（或密码保护）的网页链接，而不暴露库里其他笔记。\n\n## 前置条件\n\n- 已启用 MDFriday Publish（桌面端）\n- 选中的是**文件**，不是文件夹\n\n## 步骤\n\n1. 在文件列表或编辑器中定位该笔记\n2. **右键** → **发布到 MDFriday**（或先 **在 MDFriday 中打开** 再点发布）\n3. 在右侧面板确认 **发布对象** 为该文件（徽标「文件」）\n4. 选择发布方式：\n   - **原样发布**（默认推荐）：贴近 Obsidian 本地预览\n   - **单页主题**：从 Notes 族主题中选（默认倾向 `paper`）\n5. （可选）高级选项里设置 [[password|访问密码]]\n6. （可选）[[local-preview|预览]]\n7. 点 **发布** / **验证并发布**，完成后 **复制** URL\n\n\u003c!-- MEDIA: screenshot — 单篇发布模式切换：原样 / 单页主题 --\u003e\n![占位：单篇模式](../images/placeholder-note-modes.png)\n\n## 结果确认\n\n- 结果页显示 **已发布** + 公开 URL\n- 同一路径再次打开会 **记住** 模式 / 主题 / 密码开关\n- 再次发布通常更新**同一站点**（mdf key / Guest 凭证会持久化）\n\n## 相关链接\n\n- [[modes|发布模式]]\n- [[../themes/notes-themes|Notes 主题]]\n- 官网方案：\u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 想发文件夹却停在单篇 UI | 对文件夹右键，见 [[publish-folder\\|发布文件夹]] |\n| 原样效果和库内不一致 | 社区插件/自定义语法未必都能进静态页；可改试单页主题或简化笔记 |\n| Guest 站点已满 | 认领 Free 或撤销旧站，见 [[../plans/guest-free-personal\\|计划]] |\n","tagNames":["发布","单篇"],"links":["publish/password","publish/local-preview","publish/modes","themes/notes-themes","publish/publish-folder","plans/guest-free-personal"],"tags":["tags/单篇","tags/发布"]},"publish/publish-folder": {"slug":"publish/publish-folder","url":"https://share.mdfriday.com/s/tlR9k0/publish/publish-folder.html","title":"发布文件夹（Wiki）","content":"---\ntitle: 发布文件夹（Wiki）\nweight: 32\ntags: [发布, Wiki, 文件夹]\ndate: 2026-09-19\n---\n\n# 发布文件夹（Wiki）\n\n## 目标\n\n选中库中的**一个文件夹**，一键发布为带双向链接 / 图谱等能力的 Wiki / 数字花园站点（Quartz 系主题）。\n\n## 前置条件\n\n- 桌面端插件已启用\n- 文件夹内有可发布的 Markdown（建议先整理好公开子集，避免误发私密笔记）\n- 理解：**文件夹不能「原样发布」**，只能走 Wiki 引擎\n\n## 步骤\n\n1. 在文件树 **右键文件夹** → **发布到 MDFriday**\n2. 面板徽标为「文件夹」；发布方式固定为 **Wiki 发布**\n3. 在 **Wiki 皮肤** 列表中选择主题（默认倾向 `quartz`；仅展示 Quartz 族可用主题）\n4. （可选）打开主题 **Live demo** 对照外观\n5. （可选）[[password|访问密码]]、[[local-preview|本地预览]]\n6. **发布**，复制 URL\n\n\u003c!-- MEDIA: screenshot — 文件夹 Wiki 皮肤选择 --\u003e\n![占位：Wiki 发布](../images/placeholder-wiki-publish.png)\n\n\u003e [!warning] 范围 = 你选中的文件夹\n\u003e 只会发布该文件夹范围内内容。整库一键上传不是本产品的默认模型。私密笔记请留在文件夹外，或不要选中包含它们的父目录。\n\n## 结果确认\n\n- 浏览器中可导航多页、跟随 `[[wikilinks]]`（具体能力随 Quartz 主题）\n- 项目绑定该**文件夹路径**；改名后插件会尝试迁移 pathConfigs（若失败见排查）\n\n## 相关链接\n\n- [[../themes/wiki-quartz|Wiki / Quartz 主题]]\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n- [[modes|发布模式]]\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 想选「原样」却不可用 | 设计如此：多页需要 Wiki 引擎 |\n| 链接打不开 / 图谱空 | 检查笔记是否在所选文件夹内；wikilink 目标是否也在范围内 |\n| 中文路径异常 | 见 [[../faq\\|FAQ · 中文路径]] |\n","tagNames":["发布","Wiki","文件夹"],"links":["publish/password","publish/local-preview","themes/wiki-quartz","publish/modes","faq"],"tags":["tags/文件夹","tags/wiki","tags/发布"]},"publish/modes": {"slug":"publish/modes","url":"https://share.mdfriday.com/s/tlR9k0/publish/modes.html","title":"发布模式","content":"---\ntitle: 发布模式\nweight: 33\ntags: [概念, 模式]\ndate: 2026-09-19\n---\n\n# 发布模式\n\n## 目标\n\n搞清楚面板里的 **原样发布 / 单页主题 / Wiki 发布** 分别什么时候出现、默认是什么。\n\n## 规则（与源码一致）\n\n| 选择 | 可选模式 | 默认（右键直接发布） |\n| --- | --- | --- |\n| **笔记（note）** | `faithful` 原样 · `themed` 单页主题 | **原样**，无主题、无密码 |\n| **文件夹（folder）** | 仅 `themed`（UI 称 Wiki 发布） | **Wiki**，默认主题 slug **`quartz`**，无密码 |\n\n\u003e [!info] 文案对照（zh-CN）\n\u003e - 原样发布：保留本地预览感（主题、社区插件渲染、CSS snippets）\n\u003e - 单页主题：精选单页主题，可带 Live demo\n\u003e - Wiki：Quartz / Obsidian Publish 风格数字花园 · 图谱 · 多页\n\u003e - 文件夹无法原样：多页结构需要 Wiki 引擎解析双向链接与图谱\n\n## 怎么选（实用）\n\n| 场景 | 建议 |\n| --- | --- |\n| 给同学/同事看「和库里长得一样」 | 单篇 → **原样** |\n| 要更像独立网页 / 品牌感 | 单篇 → **单页主题** |\n| 一堆互相链接的笔记 | **文件夹 → Wiki** |\n\n## 相关链接\n\n- [[publish-note|发布一篇笔记]]\n- [[publish-folder|发布文件夹]]\n- [[../themes/_index|主题]]\n","tagNames":["概念","模式"],"links":["publish/publish-note","publish/publish-folder","themes"],"tags":["tags/模式","tags/概念"]},"publish/local-preview": {"slug":"publish/local-preview","url":"https://share.mdfriday.com/s/tlR9k0/publish/local-preview.html","title":"本地预览","content":"---\ntitle: 本地预览\nweight: 34\ntags: [预览]\ndate: 2026-09-19\n---\n\n# 本地预览\n\n## 目标\n\n在**不上线**的情况下，于本机浏览器查看构建结果。\n\n## 前置条件\n\n- 桌面端；已在右侧面板选好发布对象与模式 / 主题\n\n## 步骤\n\n1. 打开右侧 **发布** Tab\n2. 点底部次要按钮 **「预览」**\n3. 等待「正在构建… / 本地预览 · 启动本地服务」\n4. 成功后打开本机 URL（形如 `http://127.0.0.1:端口/`）\n5. 看完后可 **停止预览**\n\n\u003c!-- MEDIA: screenshot — 预览成功结果页 --\u003e\n![占位：本地预览成功](../images/placeholder-preview-success.png)\n\n## 结果确认\n\n- Badge 为 **本地预览**（不是「已发布」）\n- Helper：**预览仅在本机有效，不会写入发布历史**\n- **不需要** Guest Turnstile；Guest 也可预览\n\n## 相关链接\n\n- [[quick-share|快速分享]]（会打开面板并触发生成预览）\n- [[history|发布历史]]（只有真正「发布」才进历史）\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 预览空白 | 看构建是否报错；原样模式依赖库外观/插件，可换主题模式对比 |\n| 端口打不开 | 本机防火墙 / 杀软；停止预览后重试 |\n| 误以为已上线 | 看 URL 是否为 localhost；公开分享请走「发布」 |\n","tagNames":["预览"],"links":["publish/quick-share","publish/history"],"tags":["tags/预览"]},"publish/quick-share": {"slug":"publish/quick-share","url":"https://share.mdfriday.com/s/tlR9k0/publish/quick-share.html","title":"快速分享","content":"---\ntitle: 快速分享\nweight: 35\ntags: [命令, 分享]\ndate: 2026-09-19\n---\n\n# 快速分享\n\n## 目标\n\n用命令面板最快打开当前笔记的发布流程，并生成本地预览，便于确认后一键发布。\n\n## 前置条件\n\n- **仅桌面端**（移动端会提示「快速分享仅在桌面版本可用」）\n- 当前视图是 Markdown 笔记\n\n## 步骤\n\n1. 打开要分享的笔记\n2. 命令面板运行 **「快速分享」**（`quick-share`）\n3. 等待提示「正在准备快速分享…」→「准备就绪！点击「发布」即可分享您的笔记」\n4. 在右侧面板确认效果后点 **发布**\n\n\u003e [!tip] 和「发布到 MDFriday」命令的区别\n\u003e - **快速分享**：侧重打开面板并走预览准备\n\u003e - **发布到 MDFriday**（`quick-publish`）：对当前文件执行发布向流程  \n\u003e 两者都要求桌面端 + 已打开 Markdown。\n\n## 结果确认\n\n- 右侧面板出现当前笔记；通常已有预览结果可打开\n- 真正对外分享仍以「发布成功」后的公开 URL 为准\n\n## 相关链接\n\n- [[local-preview|本地预览]]\n- [[publish-note|发布一篇笔记]]\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 「请先打开一个 Markdown 文件」 | 先聚焦 md 标签页 |\n| 快速分享失败 | 看 Notice 错误原文；再试「在 MDFriday 中打开」手工预览 |\n","tagNames":["命令","分享"],"links":["publish/local-preview","publish/publish-note"],"tags":["tags/分享","tags/命令"]},"publish/right-panel": {"slug":"publish/right-panel","url":"https://share.mdfriday.com/s/tlR9k0/publish/right-panel.html","title":"右侧面板","content":"---\ntitle: 右侧面板\nweight: 36\ntags: [UI, 面板]\ndate: 2026-09-19\n---\n\n# 右侧面板\n\n## 目标\n\n认清 MDFriday Publish 的主界面：右侧边栏（side leaf），不是居中弹窗。\n\n## 面板结构（发布 Tab）\n\n1. 标题区 + **计划 pill**（Guest / Free / Personal，可点开对比）\n2. Tab：**发布** | **历史**\n3. **项目条**：未发布 / 已发布 / 已撤销；公开 URL；「已记住上次设置」；本地预览进行中时可停止\n4. **发布对象**（可切换已发布过的目标）\n5. **发布方式**（随文件/文件夹分叉）\n6. 主题列表（需要时）+ Live demo / 官网主题入口\n7. Guest/Free **横幅**（配额与清空策略提示）\n8. **高级选项**：访问密码、自定义域名\n9. 底部粘性栏：**预览** + **发布** / **验证并发布** / **再次发布**\n\n\u003c!-- MEDIA: screenshot — 右侧面板全貌 --\u003e\n![占位：右侧面板](../images/placeholder-right-panel.png)\n\n## 历史 Tab\n\n- **Personal**：版本列表、查看、回滚、撤销发布\n- **Guest / Free**：锁定空态，提示升级 Personal\n\n详见 [[history|发布历史与回滚]]。\n\n## 状态机（你会看到的几种屏）\n\n| 状态 | 含义 |\n| --- | --- |\n| Idle | 配置与主操作 |\n| Verify | Guest 首次需人机验证 |\n| Building | 预览或发布构建中 |\n| Result | 预览成功或发布成功 |\n| Soft-gate | 引导认领 Free |\n\n## 相关链接\n\n- [[../plans/_index|计划]]\n- [[custom-domain|自定义域名]]\n","tagNames":["UI","面板"],"links":["publish/history","plans","publish/custom-domain"],"tags":["tags/面板","tags/ui"]},"publish/password": {"slug":"publish/password","url":"https://share.mdfriday.com/s/tlR9k0/publish/password.html","title":"访问密码","content":"---\ntitle: 访问密码\nweight: 37\ntags: [安全, 密码]\ndate: 2026-09-19\n---\n\n# 访问密码\n\n## 目标\n\n让访客打开链接前必须输入密码；适合简报、对内材料等「有链接但仍需门槛」的场景。\n\n## 前置条件\n\n- 任意计划（Guest / Free / Personal）均可使用访问密码（以面板高级选项为准）\n- 密码在**发布时提交**；插件本地只记「是否启用」类标记，**不把明文密码长期写进 pathConfigs**\n\n## 步骤\n\n1. 打开右侧面板 → **高级选项**\n2. 打开 **访问密码**，填写密码（占位提示：**留空则公开访问**）\n3. [[local-preview|预览]]（若启用加密门，预览也可能走门控页）后 **发布**\n4. 把链接与密码分通道发给对方\n\n\u003c!-- MEDIA: screenshot — 高级选项访问密码 --\u003e\n![占位：访问密码](../images/placeholder-password.png)\n\n## 结果确认\n\n- 无痕 / 未登录访客打开公开 URL 时先看到密码门\n- 取消密码：清空后再次发布\n\n## 相关链接\n\n- [[unpublish|撤销发布]]（比改密码更彻底的下线）\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 设了密码但仍公开 | 确认已成功「再次发布」；勿只改面板未发布 |\n| 自己也进不去 | 核对密码空格/全角；用撤销后重新发布 |\n","tagNames":["安全","密码"],"links":["publish/local-preview","publish/unpublish"],"tags":["tags/密码","tags/安全"]},"publish/custom-domain": {"slug":"publish/custom-domain","url":"https://share.mdfriday.com/s/tlR9k0/publish/custom-domain.html","title":"自定义域名","content":"---\ntitle: 自定义域名\nweight: 38\ntags: [域名, Personal]\ndate: 2026-09-19\n---\n\n# 自定义域名\n\n## 目标\n\n把已发布站点绑到自己的域名（如 `www.example.com`），并开通 HTTPS。\n\n## 前置条件\n\n- **Personal** 计划（Guest / Free 在 UI 中锁定）\n- 已完成账号认证，且该项目**至少成功发布过一次**\n- 你能修改该域名的 DNS\n- Personal 配额：**最多 3 个**自定义域名（产品文案）\n\n## 步骤（面板向导）\n\n1. 发布 Tab → **高级选项** → **自定义域名**\n2. **步骤 1**：输入子域名（例如 `www.example.com`）→ 下一步\n3. **步骤 2**：在 DNS 控制台按表格添加记录  \n   - 主机记录填**短名称**（不要重复拼主域名，避免 `…example.com.example.com`）\n   - 等待生效后点 **「我已添加，开始验证」**\n4. **步骤 3**：按提示添加 HTTPS 相关记录；可用 **刷新状态** / **持续检查**\n5. 绑定生效后，**再发布一次**，即可用该域名访问\n\n\u003c!-- MEDIA: screenshot — 域名 DNS 表格 --\u003e\n![占位：自定义域名向导](../images/placeholder-custom-domain.png)\n\n## 结果确认\n\n- 状态 pill：**已生效**\n- 浏览器访问你的域名可打开站点（HTTPS）\n\n## 解除绑定\n\n使用 **解除绑定**：站点改回分享链接；证书可能保留以便日后快速绑到其他项目。若域名已绑在别的站点，需先在那一侧解绑。\n\n## 相关链接\n\n- [[../plans/guest-free-personal|计划对比]]\n- [[../plans/claim-and-upgrade|升级 Personal]]\n- 定价说明：\u003chttps://mdfriday.com/pricing/\u003e\n\n## 常见失败\n\n| 状态文案 | 含义 |\n| --- | --- |\n| 需先认证 | 先完成账号侧认证 |\n| 发布后可绑定 | 先成功发布一次 |\n| 升级后可用 | 当前非 Personal |\n| 等待生效 / 配置有误 | 检查 DNS 主机记录与验证 TXT/CNAME；点刷新状态 |\n","tagNames":["域名","Personal"],"links":["plans/guest-free-personal","plans/claim-and-upgrade"],"tags":["tags/personal","tags/域名"]},"publish/history": {"slug":"publish/history","url":"https://share.mdfriday.com/s/tlR9k0/publish/history.html","title":"发布历史与回滚","content":"---\ntitle: 发布历史与回滚\nweight: 39\ntags: [历史, Personal]\ndate: 2026-09-19\n---\n\n# 发布历史与回滚\n\n## 目标\n\n查看某项目历次**发布**版本，必要时回滚到旧版本（站点仍保持公开）。\n\n## 前置条件\n\n- **Personal** 计划才提供可操作历史\n- Guest / Free：历史 Tab 为锁定空态（🔒）+ 升级引导\n- 只有 **Publish** 写入历史；**预览永不进入历史**\n\n## 步骤（Personal）\n\n1. 右侧面板打开 **历史** Tab\n2. 浏览版本条目（时间、模式、主题、URL、是否 Live）\n3. **查看**：打开该版本页面\n4. **回滚**：确认后用该历史版本覆盖当前已发布内容（站点仍公开）\n5. 对当前 Live 条目还可 **撤销发布**（见 [[unpublish|撤销发布]]）\n\n\u003c!-- MEDIA: screenshot — Personal 历史列表 --\u003e\n![占位：发布历史](../images/placeholder-history.png)\n\n## 结果确认\n\n- 回滚后公开 URL 内容变为旧版本\n- 项目状态仍为 **已发布**（与「撤销发布」不同）\n\n## 相关链接\n\n- [[unpublish|撤销发布]]\n- [[../plans/guest-free-personal|计划]]\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 历史是空的锁 | 升级 Personal，或确认是否只做过预览没发布 |\n| 回滚失败 | 网络 / 配额；查看 Notice；Discord 反馈 |\n","tagNames":["历史","Personal"],"links":["publish/unpublish","plans/guest-free-personal"],"tags":["tags/personal","tags/历史"]},"publish/unpublish": {"slug":"publish/unpublish","url":"https://share.mdfriday.com/s/tlR9k0/publish/unpublish.html","title":"撤销发布","content":"---\ntitle: 撤销发布\nweight: 40\ntags: [撤销]\ndate: 2026-09-19\n---\n\n# 撤销发布\n\n## 目标\n\n让公开链接失效（访客看到 404），直到你再次发布。\n\n## 前置条件\n\n- 项目当前为已发布（Live）\n- 各计划均可撤销（以面板为准）；与「回滚」不同\n\n## 撤销 vs 回滚\n\n| | 撤销发布 | 回滚 |\n| --- | --- | --- |\n| 结果 | 站点**下线** | 仍公开，内容换历史版 |\n| 状态 | 已撤销 · 未公开 | 仍为已发布 |\n| 设置记忆 | **保留**，方便再发 | 随版本展示可能变化 |\n| 计划 | 各计划（Success / 历史 Live） | **Personal** 历史 |\n\n## 步骤\n\n1. 发布成功结果页，或历史 Tab 的 Live 条目\n2. 点 **撤销发布** / **撤销分享**\n3. 确认提示：「撤销发布？访客将看到 404，直到你再次发布。」\n\n## 结果确认\n\n- 状态变为 **已撤销 · 未公开**\n- 公开 URL 很快不可访问\n- 配置仍被记住，可 **再次发布** 恢复\n\n## 相关链接\n\n- [[history|发布历史与回滚]]\n- [[right-panel|右侧面板]]\n","tagNames":["撤销"],"links":["publish/history","publish/right-panel"],"tags":["tags/撤销"]},"themes": {"slug":"themes","url":"https://share.mdfriday.com/s/tlR9k0/themes/index.html","title":"主题","content":"---\ntitle: 主题\nweight: 50\ntags: [主题]\ndate: 2026-09-19\n---\n\n# 主题\n\nMDFriday Publish 的主题来自**在线目录**（首次选用会下载并缓存 pack）。插件按选择类型过滤：\n\n| 选择 | 目录过滤 | 默认 slug |\n| --- | --- | --- |\n| 单篇 + 单页主题 | `family === 'notes'` | `paper` |\n| 文件夹 Wiki | Quartz 族（`family/slug` 含 quartz） | `quartz` |\n\n| 页面 | 内容 |\n| --- | --- |\n| [[choose-theme\\|如何选用主题]] | 面板操作与 Live demo |\n| [[notes-themes\\|Notes（单页）主题]] | 分享单篇时的外观 |\n| [[wiki-quartz\\|Wiki / Quartz]] | 文件夹数字花园 |\n\n\u003e [!info] 权益与锁定\n\u003e 目录项可有 `free` / `plan` / `purchase` 等访问级别。未授权时 UI 可能锁定（需计划或购买）。以面板实际列表与官网主题页为准：\u003chttps://mdfriday.com/themes/\u003e\n\n\u003e [!warning] 不要沿用旧 Friday「500+ Hugo 主题一键导出」叙述\n\u003e 当前 Publish 插件侧重点是 **Notes + Wiki（Quartz）** 两套发布行为；具体可选项以你账号 entitlement + 目录 API 返回为准。\n","tagNames":["主题"],"links":["themes/choose-theme","themes/notes-themes","themes/wiki-quartz"],"tags":["tags/主题"]},"themes/choose-theme": {"slug":"themes/choose-theme","url":"https://share.mdfriday.com/s/tlR9k0/themes/choose-theme.html","title":"如何选用主题","content":"---\ntitle: 如何选用主题\nweight: 51\ntags: [主题]\ndate: 2026-09-19\n---\n\n# 如何选用主题\n\n## 目标\n\n在右侧面板为当前项目选好主题，并用 Live demo 确认风格。\n\n## 步骤\n\n1. 单篇：模式选 **单页主题**；文件夹：已在 Wiki 模式\n2. 在主题列表点选一项（仅显示当前类型可用且有 pack 的项）\n3. 点 **Live demo**（若有）在浏览器查看示例\n4. 需要更多时点 **在官网查看全部主题**\n5. [[../publish/local-preview|本地预览]] → [[../publish/publish-note|发布]]\n\n\u003c!-- MEDIA: screenshot — 主题列表与 Live demo --\u003e\n![占位：主题选择](../images/placeholder-theme-picker.png)\n\n## 结果确认\n\n- 预览 / 发布页外观与所选主题一致\n- 切换主题后再次预览应刷新样式（用户保留字段如密码偏好等会按产品规则保留）\n\n## 常见失败\n\n| 现象 | 处理 |\n| --- | --- |\n| 列表为空 | 网络无法拉目录；或当前计划无权；检查外网与登录态 |\n| 主题锁定 | 看 lockReason（需计划 / 需购买）；升级或换 free 主题 |\n| 首次很慢 | 正在下载 pack；之后会缓存 |\n","tagNames":["主题"],"links":["publish/local-preview","publish/publish-note"],"tags":["tags/主题"]},"themes/notes-themes": {"slug":"themes/notes-themes","url":"https://share.mdfriday.com/s/tlR9k0/themes/notes-themes.html","title":"Notes（单页）主题","content":"---\ntitle: Notes（单页）主题\nweight: 52\ntags: [主题, Notes]\ndate: 2026-09-19\n---\n\n# Notes（单页）主题\n\n用于**单篇笔记**的 `themed` 模式。目录过滤为 Notes 族；代码中的默认 slug 为 **`paper`**。\n\n适合：分享单页长文、报告、对外阅读页——相对「原样发布」更像独立网页。\n\n若更在意与 Obsidian 阅读视图一致，优先用 [[../publish/modes|原样发布]]，不必强行选主题。\n\n## 相关\n\n- [[../publish/publish-note|发布一篇笔记]]\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n","tagNames":["主题","Notes"],"links":["publish/modes","publish/publish-note"],"tags":["tags/notes","tags/主题"]},"themes/wiki-quartz": {"slug":"themes/wiki-quartz","url":"https://share.mdfriday.com/s/tlR9k0/themes/wiki-quartz.html","title":"Wiki / Quartz 主题","content":"---\ntitle: Wiki / Quartz 主题\nweight: 53\ntags: [主题, Wiki, Quartz]\ndate: 2026-09-19\n---\n\n# Wiki / Quartz 主题\n\n用于**文件夹**发布。默认 slug：**`quartz`**。产品叙事上基于开源 **Quartz** 能力（wikilinks、图谱、搜索、反链，以及 callouts / LaTeX / Mermaid 等常见块——以主题实际支持为准）。\n\n\u003e [!quote] 致谢\n\u003e Wiki 核心能力归功于 Quartz 开源项目；MDFriday 将其适配为可在 Obsidian 内一键预览/发布的主题路径，免去自建 Node 工具链。\n\n## 相关\n\n- [[../publish/publish-folder|发布文件夹]]\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n","tagNames":["主题","Wiki","Quartz"],"links":["publish/publish-folder"],"tags":["tags/quartz","tags/wiki","tags/主题"]},"plans": {"slug":"plans","url":"https://share.mdfriday.com/s/tlR9k0/plans/index.html","title":"计划与配额","content":"---\ntitle: 计划与配额\nweight: 60\ntags: [计划, 定价]\ndate: 2026-09-19\n---\n\n# 计划与配额\n\nMDFriday Publish 侧栏用 **Guest → Free → Personal** 三档表达能力差异。完整订阅管理在账号站，不在窄侧栏里完成。\n\n| 页面 | 内容 |\n| --- | --- |\n| [[guest-free-personal\\|三档对比]] | 存储、保留、域名、历史 |\n| [[claim-and-upgrade\\|认领与升级]] | Guest 验证、认领 Free、升级 Personal |\n\n官网定价（英文页，含年付说明）：\u003chttps://mdfriday.com/pricing/\u003e  \n账号：\u003chttps://mdfriday.com/account/\u003e\n\n\u003e [!warning] 文档以插件文案为准的一处差异\n\u003e 官网定价文案写「每档站点/构建/导出次数不限」；**插件 UI（zh-CN）**明确：Guest **1** 个站点、Free **最多 3** 个、Personal **不限**。本帮助在「站点数量」上采用**插件报错与计划卡片文案**，避免你按官网「不限站点」理解却撞上 Guest/Free 上限。若两边产品策略后续统一，以当时面板为准。\n","tagNames":["计划","定价"],"links":["plans/guest-free-personal","plans/claim-and-upgrade"],"tags":["tags/定价","tags/计划"]},"plans/guest-free-personal": {"slug":"plans/guest-free-personal","url":"https://share.mdfriday.com/s/tlR9k0/plans/guest-free-personal.html","title":"Guest / Free / Personal","content":"---\ntitle: Guest / Free / Personal\nweight: 61\ntags: [计划]\ndate: 2026-09-19\n---\n\n# Guest / Free / Personal\n\n## 对照表（插件 UI + 设计规范 + 官网定价交叉核对）\n\n| 能力 | Guest | Free | Personal |\n| --- | --- | --- | --- |\n| 定位 | 第一次试试 | 持续免费发布 | 自己的域名与长期站点 |\n| 价格 | 免费 · 无需账号 | 免费 · 注册 | 官网：**$5/月**（年付 $60）或月付 **$6/月**（以结账页为准） |\n| 站点数量（插件文案） | **1** | **最多 3** | **不限** |\n| 存储 | **5 MB** | **50 MB** | **1 GB** |\n| 保留 | 下一个 **UTC 00:00** 清空 | **每月 1 日**清空 | **永久保留** |\n| 首次 Turnstile | 需要 | 跳过 | 跳过 |\n| 原样 / 单页 / Wiki | ✓ | ✓ | ✓ |\n| CDN / 分享链接 | ✓ | ✓ | ✓ |\n| 认领 Guest 同 URL | — | ✓ | ✓ |\n| 访问密码 | ✓ | ✓ | ✓ |\n| 自定义域名 + HTTPS | ✗ | ✗ | ✓（最多 3 个） |\n| 发布历史 + 回滚 | ✗ | ✗ | ✓ |\n\n\u003e [!tip] 超配额时\n\u003e 存储或站点超限会**阻止新的发布**；已上线站点通常仍可访问（官网定价 FAQ 同旨）。可删除/撤销不用的站，或升级。\n\n## 相关链接\n\n- [[claim-and-upgrade|认领与升级]]\n- \u003chttps://mdfriday.com/pricing/\u003e\n","tagNames":["计划"],"links":["plans/claim-and-upgrade"],"tags":["tags/计划"]},"plans/claim-and-upgrade": {"slug":"plans/claim-and-upgrade","url":"https://share.mdfriday.com/s/tlR9k0/plans/claim-and-upgrade.html","title":"认领 Guest 与升级","content":"---\ntitle: 认领 Guest 与升级\nweight: 62\ntags: [Guest, Free, Personal]\ndate: 2026-09-19\n---\n\n# 认领 Guest 与升级\n\n## Guest 首次人机验证\n\n1. 侧栏主按钮变为 **验证并发布**\n2. 按说明前往 **mdfriday.com**（Guest Challenge）完成 Turnstile\n3. 回到 Obsidian 继续发布  \n深度链接协议：`obsidian://mdfriday-publish?event=…`（验证/认领/升级回调）\n\n## 认领到 Free\n\n当出现 soft-gate 或你主动升级：\n\n1. 打开 \u003chttps://mdfriday.com/account/\u003e 免费注册\n2. 按产品引导**认领**当前 Guest 站点，**保留同一 URL**\n3. 获得更高存储与最多 3 个站点（插件文案）；站点改为每月 1 日清空策略\n\n侧栏 CTA 文案示例：**免费注册 · 扩至 3 个站点**\n\n## 升级 Personal\n\n1. 账号站升级（Creem 结账；取消/发票在 Dashboard「Manage subscription \u0026 invoices」）\n2. 解锁：永久保留、1 GB、最多 3 自定义域名、历史回滚\n3. 侧栏 CTA：**升级 Personal · 站点不限**\n\n协议回调示例：`event=upgrade\u0026status=ok\u0026plan=personal`\n\n## 相关链接\n\n- [[../settings/credentials|mdf key]]（换设备 / 认领时可能用到）\n- [[../publish/custom-domain|自定义域名]]\n","tagNames":["Guest","Free","Personal"],"links":["settings/credentials","publish/custom-domain"],"tags":["tags/personal","tags/free","tags/guest"]},"settings": {"slug":"settings","url":"https://share.mdfriday.com/s/tlR9k0/settings/index.html","title":"设置","content":"---\ntitle: 设置\nweight: 70\ntags: [设置]\ndate: 2026-09-19\n---\n\n# 设置\n\n当前 **MDFriday Publish** 设置页非常精简（相对旧版 Friday 的 License / 服务器长列表）。\n\n| 页面 | 内容 |\n| --- | --- |\n| [[credentials\\|Credential（mdf key）]] | 唯一主要设置项 |\n\nCloudflare API / Share 等环境在**编译期**锁定（生产 → `mdfriday.com`；开发构建可能指向 staging `fsky.top`），**普通用户设置里不再切换**。\n\n计划对比文案也会提示：完整订阅管理在 **设置 → MDFriday** / 账号站，而不是堆在侧栏。\n","tagNames":["设置"],"links":["settings/credentials"],"tags":["tags/设置"]},"settings/credentials": {"slug":"settings/credentials","url":"https://share.mdfriday.com/s/tlR9k0/settings/credentials.html","title":"Credential（mdf key）","content":"---\ntitle: Credential（mdf key）\nweight: 71\ntags: [设置, 凭证]\ndate: 2026-09-19\n---\n\n# Credential（mdf key）\n\n## 目标\n\n了解自动签发的发布凭证，并在需要时复制到账号站或其他设备。\n\n## 在哪里\n\n**设置 → MDFriday Publish**（或设置里的 MDFriday 项）→ **Credentials**\n\n## 字段说明\n\n| 项 | 说明 |\n| --- | --- |\n| Credential (mdf key) | 统一 Key；种类为 guest 或 user（产品内不把种类编码进字符串展示） |\n| 尚未创建 | 文案：*Not created yet — issued automatically on first publish.* |\n| 已创建 | 显示截断预览；可点复制（*Mdf key copied*） |\n\n\u003e [!warning] 保管\n\u003e mdf key 等同于你的发布身份。不要发到公开仓库或截图给陌生人。遗失/泄漏时，应在账号侧按官方流程轮换（以账号站实际能力为准）。\n\n## 相关链接\n\n- [[../plans/claim-and-upgrade|认领与升级]]\n- [[../get-started|首次发布]]\n","tagNames":["设置","凭证"],"links":["plans/claim-and-upgrade","get-started"],"tags":["tags/凭证","tags/设置"]},"faq": {"slug":"faq","url":"https://share.mdfriday.com/s/tlR9k0/faq.html","title":"常见问题","content":"---\ntitle: 常见问题\nweight: 80\ntags: [FAQ]\ndate: 2026-09-19\n---\n\n# 常见问题\n\n## 安装与平台\n\n### 为什么手机 / iPad 上不能用？\n\n插件 `isDesktopOnly: true`。本地构建与预览依赖桌面环境。\n\n### 社区插件里搜不到？\n\n确认已关闭安全模式、能访问社区插件列表；关键词用 **MDFriday Publish** 或 id `mdfriday-publish`。也可打开 \u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e。\n\n## 发布与构建\n\n### 构建失败怎么办？\n\n1. 看 Obsidian Notice / 面板错误原文  \n2. 先 [[publish/local-preview|本地预览]] 定位是构建问题还是上传问题  \n3. 简化附件、检查断链图片  \n4. 换 **原样 ↔ 主题** 对比  \n5. 仍失败 → [[troubleshooting|排查清单]] 或 Discord\n\n### 预览成功但发布失败？\n\n常见：配额（站点/存储）、Guest 未完成验证、网络上传中断。对照面板红色错误：站点上限 / 存储已满等文案已本地化。\n\n### 附件 / 图片不显示？\n\n确认图片在所选笔记或文件夹范围内；避免仅靠绝对系统路径。原样模式与主题模式的资源收集路径不同，可两边各预览一次。\n\n### 中文路径可以吗？\n\n一般可用；若遇极端编码问题，尝试缩短路径、避免特殊符号，并在预览中验证链接。\n\n### 必须买 License 才能发吗？\n\n**不必。** Guest Cloudflare 发布是无账号路径；LicenseState 在 Cloudflare guest 模式下可跳过初始化。付费能力主要是 Personal 的域名 / 永久保留 / 历史等。\n\n## 计划与清空\n\n### Guest 站点第二天没了？\n\nGuest 在**下一个 UTC 00:00**清空。请 [[plans/claim-and-upgrade|认领 Free]] 保留 URL，或升级 Personal 永久保留。\n\n### 官网写「站点不限」，插件却说 Guest 只能 1 个？\n\n以**插件报错与计划卡片**为准（见 [[plans/_index|计划说明]]）。产品文案若未同步，以你安装的插件版本 UI 为准。\n\n## 主题与效果\n\n### 原样发布和库里不完全一样？\n\n预期内：只有能静态化的渲染能带走。Dataview 等「运行时查询」类能力通常不能原样进静态站。\n\n### 文件夹为什么不能原样？\n\n多页 + wikilink/图谱需要 Wiki 引擎；UI 会禁用原样并说明原因。\n\n## 旧功能\n\n### Netlify / FTP / 导出静态包还支持吗？\n\n当前发布类型为 **Cloudflare**。README 提到 Netlify/FTP 为遗留路径。本帮助不教这些为主流程；若你本地 Foundry 项目仍残留旧配置，属高级/遗留场景，请以实际面板是否仍暴露入口为准（新 Publish 面板以 CF 分享链接为主）。\n\n### Sync 怎么配？\n\n不在本插件帮助范围。见 Sync 产品：官网 \u003chttps://mdfriday.com/products/obsidian-sync/\u003e。\n\n## 相关链接\n\n- [[troubleshooting|排查清单]]\n- Discord：\u003chttps://discord.gg/t7FHJ6qNzT\u003e\n","tagNames":["FAQ"],"links":["publish/local-preview","troubleshooting","plans/claim-and-upgrade","plans"],"tags":["tags/faq"]},"troubleshooting": {"slug":"troubleshooting","url":"https://share.mdfriday.com/s/tlR9k0/troubleshooting.html","title":"排查清单","content":"---\ntitle: 排查清单\nweight: 90\ntags: [排查]\ndate: 2026-09-19\n---\n\n# 排查清单\n\n按顺序勾选；多数问题在前几步能定位。\n\n## A. 环境\n\n- [ ] Obsidian **桌面端**，插件已启用\n- [ ] 版本 ≥ `minAppVersion`（当前 manifest：**1.8.7**）\n- [ ] 能打开 \u003chttps://mdfriday.com\u003e 与分享域（生产多为 `share.mdfriday.com`）\n\n## B. 入口与对象\n\n- [ ] 右键的是**要发的**笔记或文件夹\n- [ ] 面板「发布对象」路径正确（库内找不到路径 → 文件被删/移）\n- [ ] 文件与文件夹类型不要混在同一项目里硬切（历史文案要求清空后重选）\n\n## C. 预览\n\n- [ ] 点 **预览**，看是构建失败还是仅上传失败\n- [ ] localhost 能开吗？不能 → 端口/权限\n- [ ] 空白页 → 换模式（原样/主题）、去掉可疑插件语法、检查图片\n\n## D. Guest 验证\n\n- [ ] 是否卡在 **验证并发布**\n- [ ] 是否已在浏览器完成 Turnstile 并**回到 Obsidian**\n- [ ] 协议回调是否被系统拦截（`obsidian://mdfriday-publish?...`）\n\n## E. 配额\n\n- [ ] 站点数量：Guest 1 / Free 3 / Personal 不限（插件文案）\n- [ ] 存储：5 MB / 50 MB / 1 GB — 超了会挡新发布\n- [ ] 清空策略：Guest 日清（UTC）；Free 月初清 — 别误判为「丢数据 bug」\n\n## F. 域名（Personal）\n\n- [ ] 已认证 + 已发布过\n- [ ] DNS **短主机名**是否填对\n- [ ] 点过验证 / 刷新状态；HTTPS 记录是否齐\n\n## G. 凭证\n\n- [ ] 设置里是否已有 mdf key；换机后是否需要重新认领/导入（按账号站说明）\n\n## 仍未解决\n\n1. 复制面板完整错误文案  \n2. 说明：笔记还是文件夹、模式、计划档、是否预览成功  \n3. Discord：\u003chttps://discord.gg/t7FHJ6qNzT\u003e  \n4. 或官网联系入口（页脚邮件 / 关于页）\n\n## 相关链接\n\n- [[faq|常见问题]]\n- [[plans/guest-free-personal|计划]]\n- [[publish/right-panel|右侧面板]]\n","tagNames":["排查"],"links":["faq","plans/guest-free-personal","publish/right-panel"],"tags":["tags/排查"]},"_manifest": {"slug":"_manifest","url":"https://share.mdfriday.com/s/tlR9k0/_manifest.html","title":"MDFriday Help · Manifest","content":"---\ntitle: MDFriday Help · Manifest\ndate: 2026-09-19\n---\n\n# MDFriday Help — 页面清单与 MEDIA 待填\n\n生成时间：2026-09-19（Asia/Shanghai）  \n对齐插件：`mdfriday-publish` **v26.9.4**（`/workspace/mdfriday-src/obsidian-publish` 镜像；Mac 上请以 `…/obsidian-publish/manifest.json` 为准）\n\n## 文件树\n\n```\nMDFriday Help/\n├── _MANIFEST.md          ← 本文件\n├── index.md\n├── get-started.md\n├── concepts.md\n├── faq.md\n├── troubleshooting.md\n├── images/               ← 空目录（仅 .gitkeep）\n├── videos/\n│   └── placeholder-publish-demo.md\n├── publish/\n│   ├── _index.md\n│   ├── publish-note.md\n│   ├── publish-folder.md\n│   ├── modes.md\n│   ├── local-preview.md\n│   ├── quick-share.md\n│   ├── right-panel.md\n│   ├── password.md\n│   ├── custom-domain.md\n│   ├── history.md\n│   └── unpublish.md\n├── themes/\n│   ├── _index.md\n│   ├── choose-theme.md\n│   ├── notes-themes.md\n│   └── wiki-quartz.md\n├── plans/\n│   ├── _index.md\n│   ├── guest-free-personal.md\n│   └── claim-and-upgrade.md\n└── settings/\n    ├── _index.md\n    └── credentials.md\n```\n\n## MEDIA 占位（需 Wayde 实拍/实录替换）\n\n| 占位 | 建议拍摄内容 | 引用页 |\n| --- | --- | --- |\n| `images/placeholder-help-home.png` | 帮助库首页 / 导航 | index |\n| `images/placeholder-install-plugin.png` | 社区插件搜索安装 | get-started |\n| `images/placeholder-publish-menu.png` | 右键「发布到 MDFriday」 | get-started |\n| `images/placeholder-note-modes.png` | 单篇：原样 / 单页主题切换 | publish-note |\n| `images/placeholder-wiki-publish.png` | 文件夹 Wiki 皮肤列表 | publish-folder |\n| `images/placeholder-preview-success.png` | 本地预览成功结果 | local-preview |\n| `images/placeholder-right-panel.png` | 右侧面板全貌 | right-panel |\n| `images/placeholder-password.png` | 高级选项 · 访问密码 | password |\n| `images/placeholder-custom-domain.png` | 域名向导 DNS 表 | custom-domain |\n| `images/placeholder-history.png` | Personal 历史列表 | history |\n| `images/placeholder-theme-picker.png` | 主题列表 + Live demo | choose-theme |\n| `videos/placeholder-publish-demo.md` | 一键发布演示（换成 mp4 等） | get-started |\n\n## 功能清单（写作所用）\n\n来源：`manifest.json`、`README.md`、`src/main.ts`、`setting.ts`、`types/publish*.ts`、`utils/theme.ts`、`cloudflare-env.ts`、`i18n/locales/zh-cn.ts`、`svelte/publish/PublishPanel.svelte`、`ux/DESIGN.md`；官网 `/products/obsidian-publish/`、`/solutions/*`、`/pricing/`。\n\n- 命令：`quick-share`（快速分享）、`quick-publish`（发布到 MDFriday）\n- 菜单：在 MDFriday 中打开、发布到 MDFriday\n- 模式：note faithful/themed；folder themed-only（Wiki）；默认 paper / quartz\n- 发布：Cloudflare V2；Guest 无账号；Turnstile；mdf key\n- 预览：本地 webserver；不进历史\n- 计划：Guest/Free/Personal（配额见 plans 页；插件 vs 官网站点数量文案冲突已标注）\n- 域名 / 历史回滚：Personal\n- 设置：Credentials only\n- **未作为主路径写**：Sync、Netlify/FTP、旧版大批量 Hugo 导出\n\n## 已知缺口 / 歧义\n\n1. **站点数量**：插件 UI 与官网定价「unlimited sites」不一致 → 文档已声明以插件为准。\n2. **Friday Help 参考树**：本环境无法读取 Mac 上 `Friday Help`，help.mdfriday.com 拉取失败；结构按任务书 + 当前插件 IA 重建，未抄 Sync 章。\n3. **website 源码仓**：GitHub clone 需凭据失败；改用已上线页面 WebFetch。\n4. **导出静态包 / 站点路径 UI**：新 Publish 面板未见用户向「导出」「站点路径」主按钮；sitePath/baseURL 多为 CF 内部。未编造导出教程。\n5. **Personal 月价**：$5 年付折算 vs $6 月付 — 来自官网 pricing，结账页为准。\n","tagNames":[],"links":[],"tags":[]},"categories": {"slug":"categories","url":"https://share.mdfriday.com/s/tlR9k0/categories/index.html","title":"category","content":"","tagNames":[],"links":[],"tags":[]},"tags": {"slug":"tags","url":"https://share.mdfriday.com/s/tlR9k0/tags/index.html","title":"tag","content":"","tagNames":[],"links":[],"tags":[]},"tags/faq": {"slug":"tags/faq","url":"https://share.mdfriday.com/s/tlR9k0/tags/faq/index.html","title":"FAQ","content":"","tagNames":[],"links":[],"tags":[]},"tags/free": {"slug":"tags/free","url":"https://share.mdfriday.com/s/tlR9k0/tags/free/index.html","title":"Free","content":"","tagNames":[],"links":[],"tags":[]},"tags/guest": {"slug":"tags/guest","url":"https://share.mdfriday.com/s/tlR9k0/tags/guest/index.html","title":"Guest","content":"","tagNames":[],"links":[],"tags":[]},"tags/notes": {"slug":"tags/notes","url":"https://share.mdfriday.com/s/tlR9k0/tags/notes/index.html","title":"Notes","content":"","tagNames":[],"links":[],"tags":[]},"tags/personal": {"slug":"tags/personal","url":"https://share.mdfriday.com/s/tlR9k0/tags/personal/index.html","title":"Personal","content":"","tagNames":[],"links":[],"tags":[]},"tags/quartz": {"slug":"tags/quartz","url":"https://share.mdfriday.com/s/tlR9k0/tags/quartz/index.html","title":"Quartz","content":"","tagNames":[],"links":[],"tags":[]},"tags/ui": {"slug":"tags/ui","url":"https://share.mdfriday.com/s/tlR9k0/tags/ui/index.html","title":"UI","content":"","tagNames":[],"links":[],"tags":[]},"tags/wiki": {"slug":"tags/wiki","url":"https://share.mdfriday.com/s/tlR9k0/tags/wiki/index.html","title":"Wiki","content":"","tagNames":[],"links":[],"tags":[]},"tags/主题": {"slug":"tags/主题","url":"https://share.mdfriday.com/s/tlR9k0/tags/主题/index.html","title":"主题","content":"","tagNames":[],"links":[],"tags":[]},"tags/入门": {"slug":"tags/入门","url":"https://share.mdfriday.com/s/tlR9k0/tags/入门/index.html","title":"入门","content":"","tagNames":[],"links":[],"tags":[]},"tags/凭证": {"slug":"tags/凭证","url":"https://share.mdfriday.com/s/tlR9k0/tags/凭证/index.html","title":"凭证","content":"","tagNames":[],"links":[],"tags":[]},"tags/分享": {"slug":"tags/分享","url":"https://share.mdfriday.com/s/tlR9k0/tags/分享/index.html","title":"分享","content":"","tagNames":[],"links":[],"tags":[]},"tags/单篇": {"slug":"tags/单篇","url":"https://share.mdfriday.com/s/tlR9k0/tags/单篇/index.html","title":"单篇","content":"","tagNames":[],"links":[],"tags":[]},"tags/历史": {"slug":"tags/历史","url":"https://share.mdfriday.com/s/tlR9k0/tags/历史/index.html","title":"历史","content":"","tagNames":[],"links":[],"tags":[]},"tags/发布": {"slug":"tags/发布","url":"https://share.mdfriday.com/s/tlR9k0/tags/发布/index.html","title":"发布","content":"","tagNames":[],"links":[],"tags":[]},"tags/命令": {"slug":"tags/命令","url":"https://share.mdfriday.com/s/tlR9k0/tags/命令/index.html","title":"命令","content":"","tagNames":[],"links":[],"tags":[]},"tags/域名": {"slug":"tags/域名","url":"https://share.mdfriday.com/s/tlR9k0/tags/域名/index.html","title":"域名","content":"","tagNames":[],"links":[],"tags":[]},"tags/安全": {"slug":"tags/安全","url":"https://share.mdfriday.com/s/tlR9k0/tags/安全/index.html","title":"安全","content":"","tagNames":[],"links":[],"tags":[]},"tags/安装": {"slug":"tags/安装","url":"https://share.mdfriday.com/s/tlR9k0/tags/安装/index.html","title":"安装","content":"","tagNames":[],"links":[],"tags":[]},"tags/定价": {"slug":"tags/定价","url":"https://share.mdfriday.com/s/tlR9k0/tags/定价/index.html","title":"定价","content":"","tagNames":[],"links":[],"tags":[]},"tags/密码": {"slug":"tags/密码","url":"https://share.mdfriday.com/s/tlR9k0/tags/密码/index.html","title":"密码","content":"","tagNames":[],"links":[],"tags":[]},"tags/对比": {"slug":"tags/对比","url":"https://share.mdfriday.com/s/tlR9k0/tags/对比/index.html","title":"对比","content":"","tagNames":[],"links":[],"tags":[]},"tags/导航": {"slug":"tags/导航","url":"https://share.mdfriday.com/s/tlR9k0/tags/导航/index.html","title":"导航","content":"","tagNames":[],"links":[],"tags":[]},"tags/排查": {"slug":"tags/排查","url":"https://share.mdfriday.com/s/tlR9k0/tags/排查/index.html","title":"排查","content":"","tagNames":[],"links":[],"tags":[]},"tags/撤销": {"slug":"tags/撤销","url":"https://share.mdfriday.com/s/tlR9k0/tags/撤销/index.html","title":"撤销","content":"","tagNames":[],"links":[],"tags":[]},"tags/文件夹": {"slug":"tags/文件夹","url":"https://share.mdfriday.com/s/tlR9k0/tags/文件夹/index.html","title":"文件夹","content":"","tagNames":[],"links":[],"tags":[]},"tags/概念": {"slug":"tags/概念","url":"https://share.mdfriday.com/s/tlR9k0/tags/概念/index.html","title":"概念","content":"","tagNames":[],"links":[],"tags":[]},"tags/模式": {"slug":"tags/模式","url":"https://share.mdfriday.com/s/tlR9k0/tags/模式/index.html","title":"模式","content":"","tagNames":[],"links":[],"tags":[]},"tags/计划": {"slug":"tags/计划","url":"https://share.mdfriday.com/s/tlR9k0/tags/计划/index.html","title":"计划","content":"","tagNames":[],"links":[],"tags":[]},"tags/设置": {"slug":"tags/设置","url":"https://share.mdfriday.com/s/tlR9k0/tags/设置/index.html","title":"设置","content":"","tagNames":[],"links":[],"tags":[]},"tags/面板": {"slug":"tags/面板","url":"https://share.mdfriday.com/s/tlR9k0/tags/面板/index.html","title":"面板","content":"","tagNames":[],"links":[],"tags":[]},"tags/预览": {"slug":"tags/预览","url":"https://share.mdfriday.com/s/tlR9k0/tags/预览/index.html","title":"预览","content":"","tagNames":[],"links":[],"tags":[]},"videos": {"slug":"videos","url":"https://share.mdfriday.com/s/tlR9k0/videos/index.html","title":"Videos","content":"","tagNames":[],"links":[],"tags":[]},"videos/placeholder-publish-demo": {"slug":"videos/placeholder-publish-demo","url":"https://share.mdfriday.com/s/tlR9k0/videos/placeholder-publish-demo.html","title":"占位 · 发布演示视频","content":"---\ntitle: 占位 · 发布演示视频\ndate: 2026-09-19\n---\n\n# 占位：一键发布演示\n\n请将实际演示视频放在本目录，并更新各页面中的 `videos/placeholder-publish-demo.md` 引用为真实文件名（如 `.mp4`）。\n\n建议镜头：右键笔记 → 发布到 MDFriday →（可选）预览 → 验证并发布 → 复制 URL。\n","tagNames":[],"links":[],"tags":[]}}};
+
+  window.__FOUNDRY_PAGES__ = pages;
+  window.__FOUNDRY_BASE_URL_PATH__ = "s/tlR9k0";window.__FOUNDRY_CONTENT_INDEX__ = window.__MDF_SEARCH__.content;})();
+</script><script defer src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script><script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/search/search-inline.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/clipboard/clipboard.css
+">
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/clipboard/clipboard.js
+"></script><script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/toc/toc-interactive.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/explorer/explorer.css
+">
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/explorer/explorer.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/graph/graph.css
+">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@8.0.0/dist/pixi.min.js"></script>
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/graph/graph.js
+"></script>
+
+</body>
+
+</html>

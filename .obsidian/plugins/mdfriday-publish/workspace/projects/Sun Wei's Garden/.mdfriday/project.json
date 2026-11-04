@@ -1,0 +1,15 @@
+{
+  "id": "sun-weis-garden-muc94pao",
+  "name": "Sun Wei's Garden",
+  "type": "site",
+  "createdAt": 1790056010259,
+  "updatedAt": 1790056010259,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "contentLinks": [
+    {
+      "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/sites/Sun Wei's Garden",
+      "languageCode": "en",
+      "weight": 0
+    }
+  ]
+}

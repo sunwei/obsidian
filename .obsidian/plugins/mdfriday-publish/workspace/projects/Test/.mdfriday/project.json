@@ -1,0 +1,20 @@
+{
+  "id": "test-mu7laaai",
+  "name": "Test",
+  "type": "site",
+  "createdAt": 1789774095262,
+  "updatedAt": 1789774100431,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "fileLink": {
+    "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/Test.md",
+    "targetPath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Test/content/index.md",
+    "isSymlink": true
+  },
+  "cloudflare": {
+    "cloudflareProjectId": "p_3a26ff41b36970fcfc50b5b5aaf9a7c3",
+    "hostingMode": "share",
+    "boundAt": 1789774096039,
+    "siteId": "ouZWHP",
+    "publicBaseUrl": "https://share.mdfriday.com"
+  }
+}

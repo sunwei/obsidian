@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- base-head -->
+
+<title>Unpublish | MDFriday Help</title>
+
+<meta name="description" content="">
+<meta name="author" content="MDFriday">
+
+<link rel="canonical" href="/publish/unpublish.html"><link rel="icon" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/favicon.svg
+"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Unpublish",
+  "url": "/publish/unpublish.html"}
+</script>
+<meta property="og:title" content="Unpublish" />
+<meta property="og:url" content="/publish/unpublish.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="MDFriday Help" />
+
+
+<link rel="stylesheet" href="https://cdn.mdfriday.com/t/quartz/1.0.3/css/quartz.css">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/clipboard.css
+">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/callout.css
+">
+<link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/quartz/1.0.3/css/graph.css
+">
+<meta name="theme-color" content="#faf8f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
+
+<!-- base-math: KaTeX global load — Foundry built-in, always-on -->
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+      crossorigin="anonymous">
+<script defer
+        src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+        crossorigin="anonymous"></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+
+
+
+</head>
+
+<body>
+<script>
+(function() {
+    var saved = localStorage.getItem('mdf-theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = saved || (prefersDark ? 'dark' : 'light');
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
+
+
+
+<main id="main-content"><div class="page">
+    <div id="quartz-body">
+        <aside class="sidebar left"><h1 class="page-title">
+    <a href="/index.html">MDFriday Help</a>
+</h1>
+
+<div class="spacer mobile-only"></div>
+
+<div class="flex-component" style="display: flex; flex-direction: row; gap: 0.5rem; align-items: center;">
+    <div style="flex-grow: 1; flex-shrink: 1; min-width: 0;">
+<div class="search">
+    <button class="search-button" aria-label="Search" type="button">
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+            <title>Search</title>
+            <g class="search-path" fill="none">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                <circle cx="8" cy="8" r="7" />
+            </g>
+        </svg>
+        <p>Search</p>
+    </button>
+    <div class="search-container">
+        <div class="search-space">
+            <input
+                autocomplete="off"
+                class="search-bar"
+                name="search"
+                type="text"
+                aria-label="Search for something..."
+                placeholder="Search for something..."
+            />
+            <div class="search-layout" data-preview="true"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+    <div style="flex-grow: 0; flex-shrink: 0;"><div class="darkmode">
+    <button 
+        id="darkmode-toggle" 
+        class="darkmode-toggle"
+        aria-label="Toggle dark mode"
+        title="Toggle dark mode">
+        <svg class="sun-icon" width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <circle cx="10" cy="10" r="3" fill="currentColor"/>
+            <line x1="10" y1="2" x2="10" y2="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="10" y1="16" x2="10" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="2" y1="10" x2="4" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="16" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="4.34" y1="4.34" x2="5.76" y2="5.76" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="14.24" y1="14.24" x2="15.66" y2="15.66" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="4.34" y1="15.66" x2="5.76" y2="14.24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="14.24" y1="5.76" x2="15.66" y2="4.34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="moon-icon" width="18" height="18" viewBox="0 0 20 20" fill="none" style="display: none;">
+            <path d="M17.5 11.5A7.5 7.5 0 0 1 9 3.5c0-.5.1-1 .2-1.5A8.5 8.5 0 1 0 18.5 11c-.5.1-1 .2-1.5.2-.2 0-.3 0-.5.3z" fill="currentColor"/>
+        </svg>
+    </button>
+</div>
+
+</div><div style="flex-grow: 0; flex-shrink: 0;">
+<button class="readermode" aria-label="Reader Mode" title="Reader Mode">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        class="readerIcon"
+        fill="currentColor"
+        stroke="currentColor"
+        stroke-width="0.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="64px"
+        height="64px"
+        viewBox="0 0 24 24">
+        <title>Reader Mode</title>
+        <g transform="translate(-1.8, -1.8) scale(1.15, 1.2)">
+            <path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z" />
+        </g>
+    </svg>
+</button>
+
+</div></div><div class="explorer" 
+     data-behavior="link" 
+     data-collapsed="collapsed" 
+     data-savestate="true">
+    
+    
+    <button type="button" 
+            class="explorer-toggle mobile-explorer hide-until-loaded" 
+            data-mobile="true"
+            aria-controls="explorer-content"
+            aria-label="Toggle Explorer">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="24" 
+             height="24" 
+             viewBox="0 0 24 24" 
+             stroke-width="2" 
+             stroke="currentColor"
+             fill="none"
+             stroke-linecap="round" 
+             stroke-linejoin="round" 
+             class="lucide-menu">
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+        </svg>
+    </button>
+    
+    
+    <button type="button" 
+            class="title-button explorer-toggle desktop-explorer" 
+            data-mobile="false"
+            aria-expanded="true"
+            aria-label="Toggle Explorer">
+        <h2>Explorer</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="14" 
+             height="14" 
+             viewBox="5 8 14 8" 
+             fill="none" 
+             stroke="currentColor" 
+             stroke-width="2" 
+             stroke-linecap="round" 
+             stroke-linejoin="round" 
+             class="fold">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </button>
+    
+    
+    <div id="explorer-content" 
+         class="explorer-content" 
+         aria-expanded="false" 
+         role="group">
+        <ul class="explorer-ul"></ul>
+    </div>
+    
+    
+    <template id="template-file">
+        <li>
+            <a href="#"></a>
+        </li>
+    </template>
+    
+    <template id="template-folder">
+        <li>
+            <div class="folder-container">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     width="12" 
+                     height="12" 
+                     viewBox="5 8 14 8" 
+                     fill="none" 
+                     stroke="currentColor" 
+                     stroke-width="2" 
+                     stroke-linecap="round" 
+                     stroke-linejoin="round" 
+                     class="folder-icon">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+                <div>
+                    <button class="folder-button">
+                        <span class="folder-title"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="folder-outer">
+                <ul class="content"></ul>
+            </div>
+        </li>
+    </template>
+</div>
+
+</aside>
+        <div class="center">
+            <div class="page-header">
+                <div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs">
+    <ul class="breadcrumbs">
+        
+        <li class="breadcrumb-element">
+            <a href="/index.html">Home</a>
+            <p aria-hidden="true"> ❯ </p>
+        </li>
+        
+        
+                <li class="breadcrumb-element">
+                    <a href="/publish/">Publish</a>
+                    <p aria-hidden="true"> ❯ </p>
+                </li>
+                <li class="breadcrumb-element">
+                    <a href="/publish/unpublish.html">Unpublish</a>
+                </li></ul>
+</nav></div>
+            </div>
+            <article class="popover-hint">
+                <header class="article-header"><h1 class="article-title">
+    Unpublish
+</h1>
+
+<div class="content-meta">
+    <span class="content-meta-date">
+        <time datetime="9/19/2026">
+            9/19/2026
+        </time>
+    </span><span class="content-meta-reading-time">
+        1 min read
+    </span></div>
+
+<ul class="tags"><li>
+        <a href="/tags/unpublish/index.html" class="internal tag-link">
+            unpublish
+        </a>
+    </li></ul></header>
+                <div class="article-content"><h1 id="unpublish">Unpublish</h1>
+<h2 id="goal">Goal</h2>
+<p>Make the public link stop working (visitors see 404) until you publish again.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Project is currently published (Live)</li>
+<li>All plans can unpublish (per panel); this is not the same as rollback</li>
+</ul>
+<h2 id="unpublish-vs-rollback">Unpublish vs rollback</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Unpublish</th>
+<th>Rollback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Result</td>
+<td>Site goes <strong>offline</strong></td>
+<td>Stays public; content swaps to a historical version</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Unpublished · not public</td>
+<td>Still published</td>
+</tr>
+<tr>
+<td>Remembered settings</td>
+<td><strong>Kept</strong> for easy republish</td>
+<td>May change with the version shown</td>
+</tr>
+<tr>
+<td>Plan</td>
+<td>All plans (Success / History Live)</td>
+<td><strong>Personal</strong> history</td>
+</tr>
+</tbody>
+</table>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Publish-success result page, or the Live entry on the History tab</li>
+<li>Click <strong>Unpublish</strong> / <strong>Unshare</strong></li>
+<li>Confirm: “Unpublish? Visitors will see 404 until you publish again.”</li>
+</ol>
+<h2 id="confirm-success">Confirm success</h2>
+<ul>
+<li>Status becomes <strong>Unpublished · not public</strong></li>
+<li>Public URL stops working soon</li>
+<li>Config is still remembered so <strong>Publish again</strong> can restore it</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a class="internal alias" data-slug="history" data-wikilink="history" href="/history.html" data-slug="history">Publish history and rollback</a></li>
+<li><a class="internal alias" data-slug="right-panel" data-wikilink="right-panel" href="/publish/right-panel.html" data-slug="publish/right-panel">Right panel</a></li>
+</ul>
+</div>
+            </article>
+        </div>
+        <aside class="sidebar right"><div class="graph">
+  <h3>Graph View</h3>
+  <div class="graph-outer">
+    <div class="graph-container" data-cfg='{"drag":true,"zoom":true,"depth":1,"scale":1.1,"repelForce":0.5,"centerForce":0.3,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"showTags":true,"removeTags":[],"focusOnHover":false,"enableRadial":false}'></div>
+    <button class="global-graph-icon" aria-label="Global Graph" title="Global Graph">
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 55 55"
+        fill="currentColor"
+        xml:space="preserve"
+      >
+        <path
+          d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+          s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+          c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+          C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+          c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+          v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+          s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+          C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+          S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+          s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+          s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div class="global-graph-outer">
+    <div class="global-graph-container" data-cfg='{"drag":true,"zoom":true,"depth":-1,"scale":0.9,"repelForce":0.5,"centerForce":0.2,"linkDistance":30,"fontSize":0.6,"opacityScale":1,"showTags":true,"removeTags":[],"focusOnHover":true,"enableRadial":true}'></div>
+  </div>
+</div>
+
+<div class="toc desktop-only">
+    <button type="button" 
+            class="toc-header" 
+            aria-controls="toc-content"
+            aria-expanded="true">
+        <h3>Table of Contents</h3>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="fold">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </button>
+    <div id="toc-content" class="toc-content">
+        <!-- Quartz 源码: OverflowList 使用 ul.overflow 包装 -->
+        <ul class="overflow" id="toc-list">
+            <ul>
+  <li><a href="#unpublish">Unpublish</a>
+    <ul>
+  <li><a href="#goal">Goal</a></li>
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#unpublish-vs-rollback">Unpublish vs rollback</a></li>
+  <li><a href="#steps">Steps</a></li>
+  <li><a href="#confirm-success">Confirm success</a></li>
+  <li><a href="#related">Related</a></li>    </ul></li></ul>
+
+            <!-- Quartz 源码: overflow-end 用于 IntersectionObserver 检测滚动底部 -->
+            <li class="overflow-end"></li>
+        </ul>
+    </div>
+</div></aside>
+<footer>
+    <p>
+        Built with
+        <a href="https://github.com/mdfriday">MDFriday</a>
+        <br/>2026 All Rights Reserved.
+    </p></footer>
+
+</div>
+</div>
+</main>
+
+
+  
+
+
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/katex/katex-render.js
+"></script>
+
+
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/mermaid/mermaid-render.js
+"></script>
+
+
+
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/darkmode.js
+" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/readermode.js
+" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/callout.js
+" defer></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.5.0/dist/floating-ui.core.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.5.3/dist/floating-ui.dom.umd.min.js" defer></script>
+<script src="
+https://cdn.mdfriday.com/t/quartz/1.0.3/js/popover.js
+" defer></script>
+
+
+<script>
+(function() {
+  var pages = [{"slug":"index","displayPath":"index","url":"/index.html","title":"MDFriday Publish Help","section":""},{"slug":"get-started","displayPath":"get-started","url":"/get-started.html","title":"Install and first publish","section":""},{"slug":"concepts","displayPath":"concepts","url":"/concepts.html","title":"How it differs from Obsidian Publish / Quartz","section":""},{"slug":"publish","displayPath":"publish","url":"/publish/index.html","title":"Publish","section":"publish"},{"slug":"publish/publish-note","displayPath":"publish/publish-note","url":"/publish/publish-note.html","title":"Publish a note","section":"publish"},{"slug":"publish/publish-folder","displayPath":"publish/publish-folder","url":"/publish/publish-folder.html","title":"Publish a folder (Wiki)","section":"publish"},{"slug":"publish/modes","displayPath":"publish/modes","url":"/publish/modes.html","title":"Publish modes","section":"publish"},{"slug":"publish/local-preview","displayPath":"publish/local-preview","url":"/publish/local-preview.html","title":"Local preview","section":"publish"},{"slug":"publish/quick-share","displayPath":"publish/quick-share","url":"/publish/quick-share.html","title":"Quick share","section":"publish"},{"slug":"publish/right-panel","displayPath":"publish/right-panel","url":"/publish/right-panel.html","title":"Right panel","section":"publish"},{"slug":"publish/password","displayPath":"publish/password","url":"/publish/password.html","title":"Access password","section":"publish"},{"slug":"publish/custom-domain","displayPath":"publish/custom-domain","url":"/publish/custom-domain.html","title":"Custom domain","section":"publish"},{"slug":"publish/history","displayPath":"publish/history","url":"/publish/history.html","title":"Publish history and rollback","section":"publish"},{"slug":"publish/unpublish","displayPath":"publish/unpublish","url":"/publish/unpublish.html","title":"Unpublish","section":"publish"},{"slug":"themes","displayPath":"themes","url":"/themes/index.html","title":"Themes","section":"themes"},{"slug":"themes/choose-theme","displayPath":"themes/choose-theme","url":"/themes/choose-theme.html","title":"How to choose a theme","section":"themes"},{"slug":"themes/notes-themes","displayPath":"themes/notes-themes","url":"/themes/notes-themes.html","title":"Notes (single-page) themes","section":"themes"},{"slug":"themes/wiki-quartz","displayPath":"themes/wiki-quartz","url":"/themes/wiki-quartz.html","title":"Wiki / Quartz themes","section":"themes"},{"slug":"plans","displayPath":"plans","url":"/plans/index.html","title":"Plans and quotas","section":"plans"},{"slug":"plans/guest-free-personal","displayPath":"plans/guest-free-personal","url":"/plans/guest-free-personal.html","title":"Guest / Free / Personal","section":"plans"},{"slug":"plans/claim-and-upgrade","displayPath":"plans/claim-and-upgrade","url":"/plans/claim-and-upgrade.html","title":"Claim Guest and upgrade","section":"plans"},{"slug":"settings","displayPath":"settings","url":"/settings/index.html","title":"Settings","section":"settings"},{"slug":"settings/credentials","displayPath":"settings/credentials","url":"/settings/credentials.html","title":"Credential (mdf key)","section":"settings"},{"slug":"faq","displayPath":"faq","url":"/faq.html","title":"FAQ","section":""},{"slug":"troubleshooting","displayPath":"troubleshooting","url":"/troubleshooting.html","title":"Troubleshooting checklist","section":""},{"slug":"_manifest","displayPath":"_manifest","url":"/_manifest.html","title":"MDFriday Help · Manifest","section":""},{"slug":"categories","displayPath":"categories","url":"/categories/index.html","title":"category","section":"categories"},{"slug":"tags","displayPath":"tags","url":"/tags/index.html","title":"tag","section":"tags"},{"slug":"tags/commands","displayPath":"tags/commands","url":"/tags/commands/index.html","title":"commands","section":"tags"},{"slug":"tags/comparison","displayPath":"tags/comparison","url":"/tags/comparison/index.html","title":"comparison","section":"tags"},{"slug":"tags/concepts","displayPath":"tags/concepts","url":"/tags/concepts/index.html","title":"concepts","section":"tags"},{"slug":"tags/credentials","displayPath":"tags/credentials","url":"/tags/credentials/index.html","title":"credentials","section":"tags"},{"slug":"tags/domain","displayPath":"tags/domain","url":"/tags/domain/index.html","title":"domain","section":"tags"},{"slug":"tags/faq","displayPath":"tags/faq","url":"/tags/faq/index.html","title":"FAQ","section":"tags"},{"slug":"tags/folder","displayPath":"tags/folder","url":"/tags/folder/index.html","title":"folder","section":"tags"},{"slug":"tags/free","displayPath":"tags/free","url":"/tags/free/index.html","title":"Free","section":"tags"},{"slug":"tags/getting-started","displayPath":"tags/getting-started","url":"/tags/getting-started/index.html","title":"getting-started","section":"tags"},{"slug":"tags/guest","displayPath":"tags/guest","url":"/tags/guest/index.html","title":"Guest","section":"tags"},{"slug":"tags/history","displayPath":"tags/history","url":"/tags/history/index.html","title":"history","section":"tags"},{"slug":"tags/install","displayPath":"tags/install","url":"/tags/install/index.html","title":"install","section":"tags"},{"slug":"tags/modes","displayPath":"tags/modes","url":"/tags/modes/index.html","title":"modes","section":"tags"},{"slug":"tags/navigation","displayPath":"tags/navigation","url":"/tags/navigation/index.html","title":"navigation","section":"tags"},{"slug":"tags/notes","displayPath":"tags/notes","url":"/tags/notes/index.html","title":"Notes","section":"tags"},{"slug":"tags/panel","displayPath":"tags/panel","url":"/tags/panel/index.html","title":"panel","section":"tags"},{"slug":"tags/password","displayPath":"tags/password","url":"/tags/password/index.html","title":"password","section":"tags"},{"slug":"tags/personal","displayPath":"tags/personal","url":"/tags/personal/index.html","title":"Personal","section":"tags"},{"slug":"tags/plans","displayPath":"tags/plans","url":"/tags/plans/index.html","title":"plans","section":"tags"},{"slug":"tags/preview","displayPath":"tags/preview","url":"/tags/preview/index.html","title":"preview","section":"tags"},{"slug":"tags/pricing","displayPath":"tags/pricing","url":"/tags/pricing/index.html","title":"pricing","section":"tags"},{"slug":"tags/publish","displayPath":"tags/publish","url":"/tags/publish/index.html","title":"publish","section":"tags"},{"slug":"tags/quartz","displayPath":"tags/quartz","url":"/tags/quartz/index.html","title":"Quartz","section":"tags"},{"slug":"tags/security","displayPath":"tags/security","url":"/tags/security/index.html","title":"security","section":"tags"},{"slug":"tags/settings","displayPath":"tags/settings","url":"/tags/settings/index.html","title":"settings","section":"tags"},{"slug":"tags/share","displayPath":"tags/share","url":"/tags/share/index.html","title":"share","section":"tags"},{"slug":"tags/single-note","displayPath":"tags/single-note","url":"/tags/single-note/index.html","title":"single-note","section":"tags"},{"slug":"tags/themes","displayPath":"tags/themes","url":"/tags/themes/index.html","title":"themes","section":"tags"},{"slug":"tags/troubleshooting","displayPath":"tags/troubleshooting","url":"/tags/troubleshooting/index.html","title":"troubleshooting","section":"tags"},{"slug":"tags/ui","displayPath":"tags/ui","url":"/tags/ui/index.html","title":"UI","section":"tags"},{"slug":"tags/unpublish","displayPath":"tags/unpublish","url":"/tags/unpublish/index.html","title":"unpublish","section":"tags"},{"slug":"tags/wiki","displayPath":"tags/wiki","url":"/tags/wiki/index.html","title":"Wiki","section":"tags"},{"slug":"videos","displayPath":"videos","url":"/videos/index.html","title":"Videos","section":"videos"},{"slug":"videos/placeholder-publish-demo","displayPath":"videos/placeholder-publish-demo","url":"/videos/placeholder-publish-demo.html","title":"Placeholder · publish demo video","section":"videos"}];
+
+  window.__MDF_SEARCH__ = {
+    baseURLPath: "",
+    pages: pages,content: {"index": {"slug":"index","url":"/index.html","title":"MDFriday Publish Help","content":"---\ntitle: MDFriday Publish Help\nweight: 1\ntags: [navigation, getting-started]\ndate: 2026-09-19\n---\n\n# Welcome to MDFriday Publish\n\n**MDFriday Publish** (plugin id: `mdfriday-publish`) turns **one note** or **one folder** in Obsidian into a shareable static site. The build runs locally; the cloud only hosts the build output and serves it through a global CDN.\n\n\u003e [!info] Version and platform\n\u003e This docs set matches plugin **v26.8.25** (check `manifest.json` in your vault). **Desktop only** (`isDesktopOnly: true`); mobile is not supported.\n\n## What you can do\n\n| I want to… | Go here |\n| --- | --- |\n| Share **one note** as a link | [[publish/publish-note\\|Publish a note]] |\n| Turn a folder into a **Wiki / digital garden** | [[publish/publish-folder\\|Publish a folder (Wiki)]] |\n| Preview before going live | [[publish/local-preview\\|Local preview]] |\n| Share as fast as possible | [[publish/quick-share\\|Quick share]] |\n| Pick the look (faithful / single-page theme / Quartz) | [[themes/_index\\|Themes]] · [[publish/modes\\|Publish modes]] |\n| Add an access password / custom domain | [[publish/password\\|Access password]] · [[publish/custom-domain\\|Custom domain]] |\n| Understand free vs paid limits | [[plans/_index\\|Plans and quotas]] |\n| Fix a problem | [[troubleshooting\\|Troubleshooting]] · [[faq\\|FAQ]] |\n\n## 30-second navigation\n\n1. [[get-started|Install and first publish]] — install from Community Plugins, right-click to publish\n2. [[concepts|How it differs from Obsidian Publish / Quartz]] — honest comparison\n3. [[publish/_index|How to publish]] — task-oriented how-tos\n4. [[settings/_index|Settings]] — mainly Credentials (mdf key) today\n\n## Official links\n\n- Website: \u003chttps://mdfriday.com\u003e\n- Product page: \u003chttps://mdfriday.com/products/obsidian-publish/\u003e\n- Pricing: \u003chttps://mdfriday.com/pricing/\u003e\n- Share-a-note solution: \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n- Digital garden solution: \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n- Knowledge base (legacy site; may still describe older Friday): \u003chttps://help.mdfriday.com\u003e\n- Community Discord: \u003chttps://discord.gg/t7FHJ6qNzT\u003e\n- Community plugin search: `mdfriday-publish` → \u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e\n\n\u003e [!tip] Relation to “Friday Sync”\n\u003e Sync lives in a separate repo / plugin **Obsidian Sync (MDFriday)**. This help covers **Publish only**. Unless you still see account / License entries in this plugin, do not follow Sync chapters from the old “Friday Help”.\n\n\u003c!-- MEDIA: screenshot — help home navigation structure --\u003e\n![Placeholder: help home](images/placeholder-help-home.png)\n","tagNames":["navigation","getting-started"],"links":["publish/publish-note","publish/publish-folder","publish/local-preview","publish/quick-share","themes","publish/modes","publish/password","publish/custom-domain","plans","troubleshooting","faq","get-started","concepts","publish","settings"],"tags":["tags/getting-started","tags/navigation"]},"get-started": {"slug":"get-started","url":"/get-started.html","title":"Install and first publish","content":"---\ntitle: Install and first publish\nweight: 10\ntags: [getting-started, install, Guest]\ndate: 2026-09-19\n---\n\n# Install and first publish\n\n## Goal\n\nInstall **MDFriday Publish** in Obsidian desktop and publish a note via the **Guest (no account)** path to get a shareable public link.\n\n## Prerequisites\n\n- Obsidian desktop (the plugin is **desktop-only**; see `minAppVersion` in `manifest.json`, currently **1.8.7**)\n- Outbound internet (first Guest publish may require a browser human check)\n- One Markdown note, or a folder you are ready to make public\n\n## Steps\n\n### 1. Install the plugin\n\n1. Open **Settings → Community plugins** and turn off Restricted Mode if needed\n2. Browse / search **MDFriday Publish** (id: `mdfriday-publish`)\n3. Install and **enable** it\n\nYou can also jump from: \u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e\n\n\u003c!-- MEDIA: screenshot — Community Plugins search for MDFriday Publish --\u003e\n![Placeholder: install plugin](images/placeholder-install-plugin.png)\n\n### 2. Open the right-hand publish panel\n\nPick any of these:\n\n- **Right-click** a note or folder → **“Open in MDFriday”** (opens the config panel only; does not publish yet)\n- **Right-click** → **“Publish to MDFriday”** (opens the panel and starts the publish flow)\n- Command palette: **“Quick share”** or **“Publish to MDFriday”**\n\nThe **MDFriday** sidebar appears on the right (Publish | History).\n\n\u003c!-- MEDIA: screenshot — right-click menu “Publish to MDFriday” --\u003e\n![Placeholder: publish menu](images/placeholder-publish-menu.png)\n\n### 3. First Guest publish (no account)\n\n1. Confirm the publish target is the current note / folder\n2. A single note usually defaults to **faithful publish**; a folder is always **Wiki publish** (see [[publish/modes|Publish modes]])\n3. Optional: click **Preview** to check the result in a local browser first ([[publish/local-preview|Local preview]])\n4. Click **Publish**. For Guest users who have not verified yet, the button may say **“Verify and publish”**\n5. Follow the prompt to **mdfriday.com**, complete the Turnstile human check, then return to Obsidian\n6. On success, copy the public URL and share it\n\n\u003c!-- MEDIA: video — one-click publish demo --\u003e\n![Placeholder: publish demo video](videos/placeholder-publish-demo.md)\n\n\u003e [!info] Credential is issued automatically\n\u003e The first publish automatically creates an **mdf key** (Guest or later user credential). You can view / copy it in Settings for account claim or device switches. See [[settings/credentials|Credential (mdf key)]].\n\n## Confirm success\n\n- The panel shows **“Published successfully”** with an openable / copyable URL (production share hosts are typically `https://share.mdfriday.com/...`)\n- Project status becomes **Published**\n- Guest: content is cleared at the **next UTC 00:00** (claim Free to keep the same URL) — see [[plans/guest-free-personal|Guest / Free / Personal]]\n\n## Related\n\n- [[publish/publish-note|Publish a note]]\n- [[publish/publish-folder|Publish a folder]]\n- [[plans/claim-and-upgrade|Claim Guest and upgrade]]\n- [[troubleshooting|Troubleshooting]]\n\n## Common failures\n\n| Symptom | Likely cause | See |\n| --- | --- | --- |\n| No plugin capability on mobile | Desktop only | [[faq\\|FAQ · desktop]] |\n| Stuck on “Verify and publish” | Turnstile not finished or you did not return to Obsidian | [[troubleshooting\\|Troubleshooting]] |\n| Publish failed · site limit | Guest allows **1** site (plugin copy wins) | [[plans/guest-free-personal\\|Plans]] |\n| Blank preview / build failed | Attachment paths, theme, port in use, etc. | [[faq\\|FAQ]] · [[troubleshooting\\|Troubleshooting]] |\n","tagNames":["getting-started","install","Guest"],"links":["publish/modes","publish/local-preview","settings/credentials","plans/guest-free-personal","publish/publish-note","publish/publish-folder","plans/claim-and-upgrade","troubleshooting","faq"],"tags":["tags/guest","tags/install","tags/getting-started"]},"concepts": {"slug":"concepts","url":"/concepts.html","title":"How it differs from Obsidian Publish / Quartz","content":"---\ntitle: How it differs from Obsidian Publish / Quartz\nweight: 20\ntags: [concepts, comparison]\ndate: 2026-09-19\n---\n\n# How it differs from Obsidian Publish / Quartz\n\n\u003e [!quote] For people choosing a stack\n\u003e Below are **facts the current MDFriday Publish plugin can deliver**, not marketing roadmap items treated as shipped features.\n\n## One-liners\n\n| Option | One-liner |\n| --- | --- |\n| **MDFriday Publish** | Pick a note/folder in Obsidian → build locally → one-click upload to the MDFriday CDN; Guest works without an account |\n| **Obsidian Publish** | Official hosted reader; subscription-style vault / site publishing |\n| **Self-hosted Quartz** | Free and powerful; you bring Node / a repo / CLI or CI |\n\n## Comparison (honest)\n\nSources: product comparison table on the website + plugin behavior (Cloudflare publish, faithful / themed / Wiki fork).\n\n| Dimension | MDFriday Publish | Obsidian Publish | Self-hosted Quartz / Hugo |\n| --- | --- | --- | --- |\n| Publish scope | **Single note or folder** (you choose what ships) | Vault / site–oriented workflows | Project directory; you draw the boundary |\n| Where it builds | **Local** build; upload is static output | Mostly hosted-side | Local or CI |\n| Source Markdown uploaded as an editable copy? | Product stance: **source notes stay on device**; cloud hosts build output | Hosting-first | Usually lives in a Git repo |\n| Local preview | ✓ In-plugin local server | — | ✓ (you start it) |\n| No-account trial | ✓ **Guest** | Usually needs an Obsidian account and subscription | “Account trial” does not apply |\n| Look and feel | **Faithful publish** (close to in-vault reading) or **Notes / Quartz themes** | Official reader look | Theme ecosystem you maintain |\n| Wiki capability | Folder → Quartz-family Wiki themes (graph, backlinks, etc.) | Official feature set | Upstream Quartz you operate yourself |\n| Custom domain | **Personal** plan (up to 3, automatic HTTPS) | Supported on the official stack | DIY |\n| History / rollback | **Personal** | Limited / product-specific | Git DIY |\n| Ops burden | Done inside the plugin; no DIY CLI | Low (official hosting) | High (toolchain + config) |\n\n## Two publish behaviors (product fork)\n\nThe plugin forks by selection type (see `publish-config` and UI copy):\n\n1. **Single note**\n   - **Faithful publish**: default recommendation; keep the local preview feel (theme, community plugin rendering, CSS snippets)\n   - **Single-page theme (themed)**: pick a Notes-family theme (default slug: `paper`)\n2. **Folder**\n   - **Wiki only (themed)**: faithful is not available; a Wiki engine is required for multi-page, wikilinks, and graph (default slug: `quartz`)\n\nSee [[publish/modes|Publish modes]] and [[themes/_index|Themes]].\n\n## Difference from older “Friday” help\n\nOlder **Friday Help** often mixed **Sync + Publish** and mentioned Netlify / FTP / large Hugo theme exports.\n\nCurrent **MDFriday Publish**:\n\n- Publish path is primarily **Cloudflare V2** (`PublishMethod = 'cloudflare'`)\n- Guest → share link is the default trial path\n- The README still mentions Netlify / FTP as **legacy paths**; **this help does not treat them as the main path**, so you are not guided into weakened flows\n- For Sync, use the separate Sync product — do not look for “whole-vault live sync” tutorials inside this plugin\n\n## Related\n\n- [[get-started|Install and first publish]]\n- \u003chttps://mdfriday.com/products/obsidian-publish/\u003e\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n","tagNames":["concepts","comparison"],"links":["publish/modes","themes","get-started"],"tags":["tags/comparison","tags/concepts"]},"publish": {"slug":"publish","url":"/publish/index.html","title":"Publish","content":"---\ntitle: Publish\nweight: 30\ntags: [publish]\ndate: 2026-09-19\n---\n\n# Publish\n\nPick a page by what you want to do:\n\n| Goal | Page |\n| --- | --- |\n| Publish one note | [[publish-note\\|Publish a note]] |\n| Publish a folder / Wiki | [[publish-folder\\|Publish a folder (Wiki)]] |\n| Understand faithful / single-page / Wiki | [[modes\\|Publish modes]] |\n| Preview locally first | [[local-preview\\|Local preview]] |\n| Share the current note fastest | [[quick-share\\|Quick share]] |\n| Manage projects in the right panel | [[right-panel\\|Right panel]] |\n| Access password | [[password\\|Access password]] |\n| Custom domain | [[custom-domain\\|Custom domain]] |\n| History and rollback | [[history\\|Publish history and rollback]] |\n| Take a public site offline | [[unpublish\\|Unpublish]] |\n\n\u003e [!tip] Entry labels\n\u003e Right-click menu: **Open in MDFriday** / **Publish to MDFriday**; commands: **Quick share**, **Publish to MDFriday**.\n","tagNames":["publish"],"links":["publish/publish-note","publish/publish-folder","modes","publish/local-preview","publish/quick-share","publish/right-panel","password","publish/custom-domain","history","unpublish"],"tags":["tags/publish"]},"publish/publish-note": {"slug":"publish/publish-note","url":"/publish/publish-note.html","title":"Publish a note","content":"---\ntitle: Publish a note\nweight: 31\ntags: [publish, single-note]\ndate: 2026-09-19\n---\n\n# Publish a note\n\n## Goal\n\nTurn **this one** Markdown note into a public (or password-protected) web link without exposing other notes in the vault.\n\n## Prerequisites\n\n- MDFriday Publish enabled (desktop)\n- Selection is a **file**, not a folder\n\n## Steps\n\n1. Locate the note in the file list or editor\n2. **Right-click** → **Publish to MDFriday** (or **Open in MDFriday** first, then publish)\n3. In the right panel, confirm **Publish target** is that file (badge “File”)\n4. Choose how to publish:\n   - **Faithful publish** (default recommendation): close to Obsidian’s local preview\n   - **Single-page theme**: pick from Notes-family themes (defaults toward `paper`)\n5. (Optional) Set an [[password|access password]] under Advanced\n6. (Optional) [[local-preview|Preview]]\n7. Click **Publish** / **Verify and publish**, then **Copy** the URL\n\n\u003c!-- MEDIA: screenshot — single-note mode switch: faithful / single-page theme --\u003e\n![Placeholder: note modes](../images/placeholder-note-modes.png)\n\n## Confirm success\n\n- Result page shows **Published** + public URL\n- Opening the same path again **remembers** mode / theme / password toggle\n- Republishing usually updates the **same site** (mdf key / Guest credential persists)\n\n## Related\n\n- [[modes|Publish modes]]\n- [[../themes/notes-themes|Notes themes]]\n- Website solution: \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| Wanted a folder but stayed in single-note UI | Right-click the folder; see [[publish-folder\\|Publish a folder]] |\n| Faithful look differs from the vault | Community plugins / custom syntax may not all staticize; try a single-page theme or simplify the note |\n| Guest site limit reached | Claim Free or unpublish an old site; see [[../plans/guest-free-personal\\|Plans]] |\n","tagNames":["publish","single-note"],"links":["password","publish/local-preview","modes","themes/notes-themes","publish/publish-folder","plans/guest-free-personal"],"tags":["tags/single-note","tags/publish"]},"publish/publish-folder": {"slug":"publish/publish-folder","url":"/publish/publish-folder.html","title":"Publish a folder (Wiki)","content":"---\ntitle: Publish a folder (Wiki)\nweight: 32\ntags: [publish, Wiki, folder]\ndate: 2026-09-19\n---\n\n# Publish a folder (Wiki)\n\n## Goal\n\nSelect **one folder** in the vault and publish it as a Wiki / digital garden with wikilinks / graph (Quartz-family themes).\n\n## Prerequisites\n\n- Desktop plugin enabled\n- Folder contains publishable Markdown (curate a public subset first to avoid shipping private notes)\n- Understand: **folders cannot use faithful publish**; they always go through the Wiki engine\n\n## Steps\n\n1. In the file tree, **right-click the folder** → **Publish to MDFriday**\n2. Panel badge is “Folder”; publish mode is fixed to **Wiki publish**\n3. Pick a theme in the **Wiki skin** list (defaults toward `quartz`; only Quartz-family themes are shown)\n4. (Optional) Open the theme **Live demo** to compare looks\n5. (Optional) [[password|Access password]], [[local-preview|Local preview]]\n6. **Publish**, then copy the URL\n\n\u003c!-- MEDIA: screenshot — folder Wiki skin picker --\u003e\n![Placeholder: Wiki publish](../images/placeholder-wiki-publish.png)\n\n\u003e [!warning] Scope = the folder you selected\n\u003e Only content inside that folder ships. Whole-vault one-click upload is not the default product model. Keep private notes outside the folder, or do not select a parent that contains them.\n\n## Confirm success\n\n- Browser can navigate multiple pages and follow `[[wikilinks]]` (exact capability depends on the Quartz theme)\n- The project binds to that **folder path**; after rename the plugin tries to migrate pathConfigs (if it fails, see troubleshooting)\n\n## Related\n\n- [[../themes/wiki-quartz|Wiki / Quartz themes]]\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n- [[modes|Publish modes]]\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| Faithful is unavailable | By design: multi-page needs the Wiki engine |\n| Links broken / empty graph | Check notes are inside the selected folder; wikilink targets must be in scope too |\n| Odd Chinese-path behavior | See [[../faq\\|FAQ · Chinese paths]] |\n","tagNames":["publish","Wiki","folder"],"links":["password","publish/local-preview","themes/wiki-quartz","modes","faq"],"tags":["tags/folder","tags/wiki","tags/publish"]},"publish/modes": {"slug":"publish/modes","url":"/publish/modes.html","title":"Publish modes","content":"---\ntitle: Publish modes\nweight: 33\ntags: [concepts, modes]\ndate: 2026-09-19\n---\n\n# Publish modes\n\n## Goal\n\nUnderstand when **Faithful publish / Single-page theme / Wiki publish** appear in the panel, and what the defaults are.\n\n## Rules (matches source)\n\n| Selection | Available modes | Default (right-click publish) |\n| --- | --- | --- |\n| **Note** | `faithful` · `themed` (single-page theme) | **Faithful**, no theme, no password |\n| **Folder** | `themed` only (UI calls it Wiki publish) | **Wiki**, default theme slug **`quartz`**, no password |\n\n\u003e [!info] Copy reference (from zh-CN UI)\n\u003e - Faithful publish: keep the local preview feel (theme, community plugin rendering, CSS snippets)\n\u003e - Single-page theme: curated single-page themes, optionally with Live demo\n\u003e - Wiki: Quartz / Obsidian Publish–style digital garden · graph · multi-page\n\u003e - Folders cannot be faithful: multi-page structure needs the Wiki engine for wikilinks and graph\n\n## How to choose (practical)\n\n| Scenario | Recommendation |\n| --- | --- |\n| Share something that should “look like the vault” | Note → **Faithful** |\n| Want a more standalone / branded page | Note → **Single-page theme** |\n| A cluster of interlinked notes | **Folder → Wiki** |\n\n## Related\n\n- [[publish-note|Publish a note]]\n- [[publish-folder|Publish a folder]]\n- [[../themes/_index|Themes]]\n","tagNames":["concepts","modes"],"links":["publish/publish-note","publish/publish-folder","themes"],"tags":["tags/modes","tags/concepts"]},"publish/local-preview": {"slug":"publish/local-preview","url":"/publish/local-preview.html","title":"Local preview","content":"---\ntitle: Local preview\nweight: 34\ntags: [preview]\ndate: 2026-09-19\n---\n\n# Local preview\n\n## Goal\n\nView the build result in a local browser **without going live**.\n\n## Prerequisites\n\n- Desktop; publish target and mode / theme already chosen in the right panel\n\n## Steps\n\n1. Open the right-hand **Publish** tab\n2. Click the secondary bottom button **“Preview”**\n3. Wait for “Building… / Local preview · starting local server”\n4. On success, open the local URL (like `http://127.0.0.1:port/`)\n5. When done, you can **Stop preview**\n\n\u003c!-- MEDIA: screenshot — preview success result page --\u003e\n![Placeholder: local preview success](../images/placeholder-preview-success.png)\n\n## Confirm success\n\n- Badge is **Local preview** (not “Published”)\n- Helper: **Preview is local only and does not write publish history**\n- Guest Turnstile is **not** required; Guest can preview too\n\n## Related\n\n- [[quick-share|Quick share]] (opens the panel and prepares a preview)\n- [[history|Publish history]] (only a real **Publish** enters history)\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| Blank preview | Check build errors; faithful depends on vault look/plugins — compare with themed mode |\n| Port won’t open | Local firewall / antivirus; stop preview and retry |\n| Thought it was live | Check whether the URL is localhost; public sharing needs **Publish** |\n","tagNames":["preview"],"links":["publish/quick-share","history"],"tags":["tags/preview"]},"publish/quick-share": {"slug":"publish/quick-share","url":"/publish/quick-share.html","title":"Quick share","content":"---\ntitle: Quick share\nweight: 35\ntags: [commands, share]\ndate: 2026-09-19\n---\n\n# Quick share\n\n## Goal\n\nOpen the publish flow for the current note from the command palette as fast as possible, generate a local preview, then one-click publish after you confirm.\n\n## Prerequisites\n\n- **Desktop only** (mobile shows “Quick share is only available on desktop”)\n- Current view is a Markdown note\n\n## Steps\n\n1. Open the note you want to share\n2. Command palette → **“Quick share”** (`quick-share`)\n3. Wait for “Preparing quick share…” → “Ready! Click Publish to share your note”\n4. Confirm in the right panel, then click **Publish**\n\n\u003e [!tip] Difference from the “Publish to MDFriday” command\n\u003e - **Quick share**: focuses on opening the panel and preparing a preview\n\u003e - **Publish to MDFriday** (`quick-publish`): runs the publish-oriented flow for the current file  \n\u003e Both require desktop + an open Markdown file.\n\n## Confirm success\n\n- Right panel shows the current note; a preview result is usually ready to open\n- Public sharing still means the public URL after **Published successfully**\n\n## Related\n\n- [[local-preview|Local preview]]\n- [[publish-note|Publish a note]]\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| “Please open a Markdown file first” | Focus an md tab first |\n| Quick share failed | Read the Notice error; retry via “Open in MDFriday” and preview manually |\n","tagNames":["commands","share"],"links":["publish/local-preview","publish/publish-note"],"tags":["tags/share","tags/commands"]},"publish/right-panel": {"slug":"publish/right-panel","url":"/publish/right-panel.html","title":"Right panel","content":"---\ntitle: Right panel\nweight: 36\ntags: [UI, panel]\ndate: 2026-09-19\n---\n\n# Right panel\n\n## Goal\n\nRecognize the main MDFriday Publish UI: a right sidebar (side leaf), not a centered modal.\n\n## Panel layout (Publish tab)\n\n1. Title area + **plan pill** (Guest / Free / Personal — click to compare)\n2. Tabs: **Publish** | **History**\n3. **Project bar**: Unpublished / Published / Unpublished (revoked); public URL; “Remembered last settings”; stop local preview when running\n4. **Publish target** (switch among previously published targets)\n5. **Publish mode** (forks by file vs folder)\n6. Theme list (when needed) + Live demo / website themes entry\n7. Guest/Free **banner** (quota and wipe-policy tips)\n8. **Advanced**: access password, custom domain\n9. Sticky bottom bar: **Preview** + **Publish** / **Verify and publish** / **Publish again**\n\n\u003c!-- MEDIA: screenshot — full right panel --\u003e\n![Placeholder: right panel](../images/placeholder-right-panel.png)\n\n## History tab\n\n- **Personal**: version list, view, rollback, unpublish\n- **Guest / Free**: locked empty state with upgrade prompt\n\nSee [[history|Publish history and rollback]].\n\n## State machine (screens you will see)\n\n| State | Meaning |\n| --- | --- |\n| Idle | Config and primary actions |\n| Verify | Guest first-time human check |\n| Building | Preview or publish build in progress |\n| Result | Preview success or publish success |\n| Soft-gate | Prompt to claim Free |\n\n## Related\n\n- [[../plans/_index|Plans]]\n- [[custom-domain|Custom domain]]\n","tagNames":["UI","panel"],"links":["history","plans","publish/custom-domain"],"tags":["tags/panel","tags/ui"]},"publish/password": {"slug":"publish/password","url":"/publish/password.html","title":"Access password","content":"---\ntitle: Access password\nweight: 37\ntags: [security, password]\ndate: 2026-09-19\n---\n\n# Access password\n\n## Goal\n\nRequire visitors to enter a password before opening the link — useful for briefs and internal materials that still need a link but a gate.\n\n## Prerequisites\n\n- Any plan (Guest / Free / Personal) can use access password (per Advanced options in the panel)\n- Password is submitted **at publish time**; the plugin only keeps enablement-style flags locally and **does not persist the plaintext password in pathConfigs long-term**\n\n## Steps\n\n1. Right panel → **Advanced**\n2. Enable **Access password** and enter it (placeholder: **leave empty for public access**)\n3. [[local-preview|Preview]] (if the gate is on, preview may also show the gate page), then **Publish**\n4. Send the link and password on separate channels\n\n\u003c!-- MEDIA: screenshot — Advanced access password --\u003e\n![Placeholder: access password](../images/placeholder-password.png)\n\n## Confirm success\n\n- Incognito / signed-out visitors hit the password gate on the public URL first\n- Remove password: clear it and publish again\n\n## Related\n\n- [[unpublish|Unpublish]] (a more thorough offline than changing the password)\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| Set a password but still public | Confirm a successful **Publish again**; do not only change the panel without publishing |\n| You cannot get in either | Check spaces / full-width characters; unpublish then republish |\n","tagNames":["security","password"],"links":["publish/local-preview","unpublish"],"tags":["tags/password","tags/security"]},"publish/custom-domain": {"slug":"publish/custom-domain","url":"/publish/custom-domain.html","title":"Custom domain","content":"---\ntitle: Custom domain\nweight: 38\ntags: [domain, Personal]\ndate: 2026-09-19\n---\n\n# Custom domain\n\n## Goal\n\nBind a published site to your own domain (e.g. `www.example.com`) with HTTPS.\n\n## Prerequisites\n\n- **Personal** plan (Guest / Free are locked in the UI)\n- Account authenticated, and the project has **published successfully at least once**\n- You can edit DNS for that domain\n- Personal quota: **up to 3** custom domains (product copy)\n\n## Steps (panel wizard)\n\n1. Publish tab → **Advanced** → **Custom domain**\n2. **Step 1**: enter the hostname (e.g. `www.example.com`) → Next\n3. **Step 2**: add the records shown in the table in your DNS console  \n   - Host record uses the **short name** (do not re-append the apex, or you get `…example.com.example.com`)\n   - After DNS propagates, click **“I’ve added the records — start verification”**\n4. **Step 3**: add the HTTPS-related records as prompted; use **Refresh status** / **Keep checking**\n5. Once binding is active, **publish once more** so the domain serves the site\n\n\u003c!-- MEDIA: screenshot — domain DNS table --\u003e\n![Placeholder: custom domain wizard](../images/placeholder-custom-domain.png)\n\n## Confirm success\n\n- Status pill: **Active**\n- Browser opens your domain with HTTPS\n\n## Unbind\n\nUse **Unbind**: the site falls back to the share link; certificates may be kept so you can rebind to another project later. If the domain is already bound elsewhere, unbind it there first.\n\n## Related\n\n- [[../plans/guest-free-personal|Plan comparison]]\n- [[../plans/claim-and-upgrade|Upgrade to Personal]]\n- Pricing: \u003chttps://mdfriday.com/pricing/\u003e\n\n## Common failures\n\n| Status copy | Meaning |\n| --- | --- |\n| Authenticate first | Finish account-side authentication |\n| Available after publish | Publish successfully once first |\n| Available after upgrade | Not on Personal yet |\n| Waiting / misconfigured | Check DNS host records and verify TXT/CNAME; click refresh status |\n","tagNames":["domain","Personal"],"links":["plans/guest-free-personal","plans/claim-and-upgrade"],"tags":["tags/personal","tags/domain"]},"publish/history": {"slug":"publish/history","url":"/publish/history.html","title":"Publish history and rollback","content":"---\ntitle: Publish history and rollback\nweight: 39\ntags: [history, Personal]\ndate: 2026-09-19\n---\n\n# Publish history and rollback\n\n## Goal\n\nBrowse past **publish** versions for a project and roll back when needed (site stays public).\n\n## Prerequisites\n\n- **Personal** plan for actionable history\n- Guest / Free: History tab is a locked empty state (🔒) + upgrade prompt\n- Only **Publish** writes history; **Preview never enters history**\n\n## Steps (Personal)\n\n1. Right panel → **History** tab\n2. Browse version entries (time, mode, theme, URL, Live or not)\n3. **View**: open that version’s page\n4. **Rollback**: after confirm, overwrite the current published content with that historical version (site stays public)\n5. On the current Live entry you can also **Unpublish** (see [[unpublish|Unpublish]])\n\n\u003c!-- MEDIA: screenshot — Personal history list --\u003e\n![Placeholder: publish history](../images/placeholder-history.png)\n\n## Confirm success\n\n- After rollback, the public URL shows the older content\n- Project status stays **Published** (unlike Unpublish)\n\n## Related\n\n- [[unpublish|Unpublish]]\n- [[../plans/guest-free-personal|Plans]]\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| History is a locked empty state | Upgrade to Personal, or confirm you only previewed and never published |\n| Rollback failed | Network / quota; check Notice; report on Discord |\n","tagNames":["history","Personal"],"links":["unpublish","plans/guest-free-personal"],"tags":["tags/personal","tags/history"]},"publish/unpublish": {"slug":"publish/unpublish","url":"/publish/unpublish.html","title":"Unpublish","content":"---\ntitle: Unpublish\nweight: 40\ntags: [unpublish]\ndate: 2026-09-19\n---\n\n# Unpublish\n\n## Goal\n\nMake the public link stop working (visitors see 404) until you publish again.\n\n## Prerequisites\n\n- Project is currently published (Live)\n- All plans can unpublish (per panel); this is not the same as rollback\n\n## Unpublish vs rollback\n\n| | Unpublish | Rollback |\n| --- | --- | --- |\n| Result | Site goes **offline** | Stays public; content swaps to a historical version |\n| Status | Unpublished · not public | Still published |\n| Remembered settings | **Kept** for easy republish | May change with the version shown |\n| Plan | All plans (Success / History Live) | **Personal** history |\n\n## Steps\n\n1. Publish-success result page, or the Live entry on the History tab\n2. Click **Unpublish** / **Unshare**\n3. Confirm: “Unpublish? Visitors will see 404 until you publish again.”\n\n## Confirm success\n\n- Status becomes **Unpublished · not public**\n- Public URL stops working soon\n- Config is still remembered so **Publish again** can restore it\n\n## Related\n\n- [[history|Publish history and rollback]]\n- [[right-panel|Right panel]]\n","tagNames":["unpublish"],"links":["history","publish/right-panel"],"tags":["tags/unpublish"]},"themes": {"slug":"themes","url":"/themes/index.html","title":"Themes","content":"---\ntitle: Themes\nweight: 50\ntags: [themes]\ndate: 2026-09-19\n---\n\n# Themes\n\nMDFriday Publish themes come from an **online catalog** (the first use downloads and caches a pack). The plugin filters by selection type:\n\n| Selection | Catalog filter | Default slug |\n| --- | --- | --- |\n| Note + single-page theme | `family === 'notes'` | `paper` |\n| Folder Wiki | Quartz family (`family/slug` contains quartz) | `quartz` |\n\n| Page | Content |\n| --- | --- |\n| [[choose-theme\\|How to choose a theme]] | Panel actions and Live demo |\n| [[notes-themes\\|Notes (single-page) themes]] | Look for sharing one note |\n| [[wiki-quartz\\|Wiki / Quartz]] | Folder digital garden |\n\n\u003e [!info] Entitlements and locks\n\u003e Catalog items may have access levels like `free` / `plan` / `purchase`. Unauthorized items can lock in the UI (need a plan or purchase). Trust the panel list and the website themes page: \u003chttps://mdfriday.com/themes/\u003e\n\n\u003e [!warning] Do not reuse old Friday “500+ Hugo themes one-click export” copy\n\u003e The current Publish plugin centers on **Notes + Wiki (Quartz)** as two publish behaviors; available options follow your account entitlement + what the catalog API returns.\n","tagNames":["themes"],"links":["themes/choose-theme","themes/notes-themes","themes/wiki-quartz"],"tags":["tags/themes"]},"themes/choose-theme": {"slug":"themes/choose-theme","url":"/themes/choose-theme.html","title":"How to choose a theme","content":"---\ntitle: How to choose a theme\nweight: 51\ntags: [themes]\ndate: 2026-09-19\n---\n\n# How to choose a theme\n\n## Goal\n\nPick a theme for the current project in the right panel and confirm the look with Live demo.\n\n## Steps\n\n1. Note: set mode to **Single-page theme**; folder: you are already in Wiki mode\n2. Select an item in the theme list (only types available for the current selection with a pack are shown)\n3. Click **Live demo** (if present) to open an example in the browser\n4. For more options, click **View all themes on the website**\n5. [[../publish/local-preview|Local preview]] → [[../publish/publish-note|Publish]]\n\n\u003c!-- MEDIA: screenshot — theme list and Live demo --\u003e\n![Placeholder: theme picker](../images/placeholder-theme-picker.png)\n\n## Confirm success\n\n- Preview / published page matches the selected theme\n- After switching themes, preview again to refresh styles (user-retained fields like password preference follow product rules)\n\n## Common failures\n\n| Symptom | What to do |\n| --- | --- |\n| Empty list | Catalog fetch failed, or plan has no access; check network and sign-in |\n| Theme locked | Read lockReason (needs plan / purchase); upgrade or pick a free theme |\n| First use is slow | Pack is downloading; later uses are cached |\n","tagNames":["themes"],"links":["publish/local-preview","publish/publish-note"],"tags":["tags/themes"]},"themes/notes-themes": {"slug":"themes/notes-themes","url":"/themes/notes-themes.html","title":"Notes (single-page) themes","content":"---\ntitle: Notes (single-page) themes\nweight: 52\ntags: [themes, Notes]\ndate: 2026-09-19\n---\n\n# Notes (single-page) themes\n\nUsed for **single notes** in `themed` mode. Catalog filter is the Notes family; the default slug in code is **`paper`**.\n\nBest for: sharing a long single page, a report, or an external reading page — more like a standalone web page than **faithful publish**.\n\nIf matching the Obsidian reading view matters more, prefer [[../publish/modes|faithful publish]] instead of forcing a theme.\n\n## Related\n\n- [[../publish/publish-note|Publish a note]]\n- \u003chttps://mdfriday.com/solutions/share-a-note/\u003e\n","tagNames":["themes","Notes"],"links":["publish/modes","publish/publish-note"],"tags":["tags/notes","tags/themes"]},"themes/wiki-quartz": {"slug":"themes/wiki-quartz","url":"/themes/wiki-quartz.html","title":"Wiki / Quartz themes","content":"---\ntitle: Wiki / Quartz themes\nweight: 53\ntags: [themes, Wiki, Quartz]\ndate: 2026-09-19\n---\n\n# Wiki / Quartz themes\n\nUsed for **folder** publish. Default slug: **`quartz`**. Product narrative builds on open-source **Quartz** (wikilinks, graph, search, backlinks, plus common blocks like callouts / LaTeX / Mermaid — exact support depends on the theme).\n\n\u003e [!quote] Credits\n\u003e Core Wiki capability comes from the Quartz open-source project; MDFriday adapts it into a theme path you can preview/publish one-click from Obsidian without running a Node toolchain yourself.\n\n## Related\n\n- [[../publish/publish-folder|Publish a folder]]\n- \u003chttps://mdfriday.com/solutions/digital-garden/\u003e\n","tagNames":["themes","Wiki","Quartz"],"links":["publish/publish-folder"],"tags":["tags/quartz","tags/wiki","tags/themes"]},"plans": {"slug":"plans","url":"/plans/index.html","title":"Plans and quotas","content":"---\ntitle: Plans and quotas\nweight: 60\ntags: [plans, pricing]\ndate: 2026-09-19\n---\n\n# Plans and quotas\n\nMDFriday Publish’s sidebar expresses capability as **Guest → Free → Personal**. Full subscription management lives on the account site, not in the narrow sidebar.\n\n| Page | Content |\n| --- | --- |\n| [[guest-free-personal\\|Three-tier comparison]] | Storage, retention, domain, history |\n| [[claim-and-upgrade\\|Claim and upgrade]] | Guest verify, claim Free, upgrade Personal |\n\nWebsite pricing (English page, includes annual billing notes): \u003chttps://mdfriday.com/pricing/\u003e  \nAccount: \u003chttps://mdfriday.com/account/\u003e\n\n\u003e [!warning] One place where docs follow plugin copy\n\u003e Website pricing says each tier has unlimited sites/builds/exports; the **plugin UI (zh-CN)** is explicit: Guest **1** site, Free **up to 3**, Personal **unlimited**. On site count, this help follows **plugin errors and plan-card copy** so you do not assume “unlimited sites” from the website and then hit Guest/Free caps. If product policy later aligns, trust the panel at that time.\n","tagNames":["plans","pricing"],"links":["plans/guest-free-personal","plans/claim-and-upgrade"],"tags":["tags/pricing","tags/plans"]},"plans/guest-free-personal": {"slug":"plans/guest-free-personal","url":"/plans/guest-free-personal.html","title":"Guest / Free / Personal","content":"---\ntitle: Guest / Free / Personal\nweight: 61\ntags: [plans]\ndate: 2026-09-19\n---\n\n# Guest / Free / Personal\n\n## Comparison (plugin UI + design spec + website pricing cross-check)\n\n| Capability | Guest | Free | Personal |\n| --- | --- | --- | --- |\n| Positioning | First try | Ongoing free publish | Your domain and long-lived sites |\n| Price | Free · no account | Free · sign up | Website: **$5/mo** (annual $60) or monthly **$6/mo** (checkout page wins) |\n| Sites (plugin copy) | **1** | **Up to 3** | **Unlimited** |\n| Storage | **5 MB** | **50 MB** | **1 GB** |\n| Retention | Cleared at next **UTC 00:00** | Cleared on the **1st of each month** | **Permanent** |\n| First Turnstile | Required | Skipped | Skipped |\n| Faithful / single-page / Wiki | ✓ | ✓ | ✓ |\n| CDN / share link | ✓ | ✓ | ✓ |\n| Claim Guest same URL | — | ✓ | ✓ |\n| Access password | ✓ | ✓ | ✓ |\n| Custom domain + HTTPS | ✗ | ✗ | ✓ (up to 3) |\n| Publish history + rollback | ✗ | ✗ | ✓ |\n\n\u003e [!tip] Over quota\n\u003e Storage or site overage **blocks new publishes**; already-live sites usually stay reachable (same idea as the website pricing FAQ). Delete/unpublish unused sites, or upgrade.\n\n## Related\n\n- [[claim-and-upgrade|Claim and upgrade]]\n- \u003chttps://mdfriday.com/pricing/\u003e\n","tagNames":["plans"],"links":["plans/claim-and-upgrade"],"tags":["tags/plans"]},"plans/claim-and-upgrade": {"slug":"plans/claim-and-upgrade","url":"/plans/claim-and-upgrade.html","title":"Claim Guest and upgrade","content":"---\ntitle: Claim Guest and upgrade\nweight: 62\ntags: [Guest, Free, Personal]\ndate: 2026-09-19\n---\n\n# Claim Guest and upgrade\n\n## Guest first-time human check\n\n1. Sidebar primary button becomes **Verify and publish**\n2. Follow instructions to **mdfriday.com** (Guest Challenge) and complete Turnstile\n3. Return to Obsidian to continue publishing  \nDeep-link protocol: `obsidian://mdfriday-publish?event=…` (verify / claim / upgrade callbacks)\n\n## Claim Free\n\nWhen a soft-gate appears or you upgrade yourself:\n\n1. Open \u003chttps://mdfriday.com/account/\u003e and sign up for free\n2. Follow the product flow to **claim** the current Guest site and **keep the same URL**\n3. Get higher storage and up to 3 sites (plugin copy); wipe policy becomes the 1st of each month\n\nSidebar CTA example: **Sign up free · expand to 3 sites**\n\n## Upgrade to Personal\n\n1. Upgrade on the account site (Creem checkout; cancel/invoices under Dashboard “Manage subscription \u0026 invoices”)\n2. Unlocks: permanent retention, 1 GB, up to 3 custom domains, history rollback\n3. Sidebar CTA: **Upgrade Personal · unlimited sites**\n\nProtocol callback example: `event=upgrade\u0026status=ok\u0026plan=personal`\n\n## Related\n\n- [[../settings/credentials|mdf key]] (may be needed when switching devices / claiming)\n- [[../publish/custom-domain|Custom domain]]\n","tagNames":["Guest","Free","Personal"],"links":["settings/credentials","publish/custom-domain"],"tags":["tags/personal","tags/free","tags/guest"]},"settings": {"slug":"settings","url":"/settings/index.html","title":"Settings","content":"---\ntitle: Settings\nweight: 70\ntags: [settings]\ndate: 2026-09-19\n---\n\n# Settings\n\nCurrent **MDFriday Publish** settings are intentionally lean (compared with older Friday License / long server lists).\n\n| Page | Content |\n| --- | --- |\n| [[credentials\\|Credential (mdf key)]] | The main setting today |\n\nCloudflare API / Share environments are locked at **compile time** (production → `mdfriday.com`; dev builds may point at staging `fsky.top`) and are **not switched in end-user Settings**.\n\nPlan-comparison copy also notes: full subscription management lives under **Settings → MDFriday** / the account site, not piled into the sidebar.\n","tagNames":["settings"],"links":["credentials"],"tags":["tags/settings"]},"settings/credentials": {"slug":"settings/credentials","url":"/settings/credentials.html","title":"Credential (mdf key)","content":"---\ntitle: Credential (mdf key)\nweight: 71\ntags: [settings, credentials]\ndate: 2026-09-19\n---\n\n# Credential (mdf key)\n\n## Goal\n\nUnderstand the auto-issued publish credential and copy it to the account site or another device when needed.\n\n## Where\n\n**Settings → MDFriday Publish** (or the MDFriday item in Settings) → **Credentials**\n\n## Fields\n\n| Item | Meaning |\n| --- | --- |\n| Credential (mdf key) | Unified key; kind is guest or user (product does not encode kind into the displayed string) |\n| Not created yet | Copy: *Not created yet — issued automatically on first publish.* |\n| Created | Truncated preview; click to copy (*Mdf key copied*) |\n\n\u003e [!warning] Keep it private\n\u003e The mdf key is your publish identity. Do not commit it to a public repo or screenshot it for strangers. If lost/leaked, rotate via the official account-site flow (whatever that site currently supports).\n\n## Related\n\n- [[../plans/claim-and-upgrade|Claim and upgrade]]\n- [[../get-started|First publish]]\n","tagNames":["settings","credentials"],"links":["plans/claim-and-upgrade","get-started"],"tags":["tags/credentials","tags/settings"]},"faq": {"slug":"faq","url":"/faq.html","title":"FAQ","content":"---\ntitle: FAQ\nweight: 80\ntags: [FAQ]\ndate: 2026-09-19\n---\n\n# FAQ\n\n## Install and platform\n\n### Why can’t I use it on phone / iPad?\n\nThe plugin sets `isDesktopOnly: true`. Local build and preview need a desktop environment.\n\n### I can’t find it in Community Plugins?\n\nConfirm Restricted Mode is off and you can reach the community plugin list; search **MDFriday Publish** or id `mdfriday-publish`. Or open \u003chttps://obsidian.md/plugins?search=mdfriday-publish\u003e.\n\n## Publish and build\n\n### Build failed — what now?\n\n1. Read the Obsidian Notice / panel error text  \n2. Try [[publish/local-preview|Local preview]] first to tell build vs upload apart  \n3. Simplify attachments and fix broken images  \n4. Switch **faithful ↔ themed** and compare  \n5. Still stuck → [[troubleshooting|Troubleshooting]] or Discord\n\n### Preview works but publish fails?\n\nCommon causes: quotas (sites/storage), Guest verification incomplete, upload interrupted. Match the red panel error: site limit / storage full, etc. (localized in the UI).\n\n### Attachments / images missing?\n\nConfirm images are inside the selected note or folder scope; avoid relying on absolute OS paths alone. Faithful and themed modes collect assets differently — preview both once.\n\n### Do Chinese paths work?\n\nUsually yes. For rare encoding issues, shorten the path, avoid odd symbols, and verify links in preview.\n\n### Do I need a License to publish?\n\n**No.** Guest Cloudflare publish is a no-account path; LicenseState can skip init in Cloudflare guest mode. Paid value is mainly Personal features: domain / permanent retention / history.\n\n## Plans and wipe policy\n\n### Guest site gone the next day?\n\nGuest is wiped at the **next UTC 00:00**. [[plans/claim-and-upgrade|Claim Free]] to keep the URL, or upgrade to Personal for permanent retention.\n\n### Site says “unlimited sites” on the website, but the plugin says Guest only gets 1?\n\nTrust the **plugin errors and plan cards** (see [[plans/_index|Plans]]). If marketing copy lags, the UI of the plugin version you installed wins.\n\n## Themes and fidelity\n\n### Faithful publish doesn’t match my vault exactly?\n\nExpected: only render that can be staticized ships. Runtime query features like Dataview usually do not survive into a static site.\n\n### Why can’t folders use faithful?\n\nMulti-page + wikilink/graph needs a Wiki engine; the UI disables faithful and explains why.\n\n## Legacy features\n\n### Are Netlify / FTP / “export static package” still supported?\n\nCurrent publish type is **Cloudflare**. The README lists Netlify/FTP as legacy. This help does not teach them as the main flow. If an old Foundry project still has leftover config, treat it as advanced/legacy — only if the panel still exposes those entries (the new Publish panel centers on CF share links).\n\n### How do I set up Sync?\n\nOut of scope for this plugin’s help. See Sync: \u003chttps://mdfriday.com/products/obsidian-sync/\u003e.\n\n## Related\n\n- [[troubleshooting|Troubleshooting]]\n- Discord: \u003chttps://discord.gg/t7FHJ6qNzT\u003e\n","tagNames":["FAQ"],"links":["publish/local-preview","troubleshooting","plans/claim-and-upgrade","plans"],"tags":["tags/faq"]},"troubleshooting": {"slug":"troubleshooting","url":"/troubleshooting.html","title":"Troubleshooting checklist","content":"---\ntitle: Troubleshooting checklist\nweight: 90\ntags: [troubleshooting]\ndate: 2026-09-19\n---\n\n# Troubleshooting checklist\n\nWork top to bottom; most issues surface in the first few steps.\n\n## A. Environment\n\n- [ ] Obsidian **desktop**, plugin enabled\n- [ ] Version ≥ `minAppVersion` (current manifest: **1.8.7**)\n- [ ] You can open \u003chttps://mdfriday.com\u003e and the share host (production is often `share.mdfriday.com`)\n\n## B. Entry and target\n\n- [ ] You right-clicked the **intended** note or folder\n- [ ] Panel “Publish target” path is correct (missing path → file deleted/moved)\n- [ ] Do not hard-switch file vs folder types inside the same project (older copy asks you to clear and reselect)\n\n## C. Preview\n\n- [ ] Click **Preview** to see whether build fails or only upload fails\n- [ ] Does localhost open? If not → port / permissions\n- [ ] Blank page → switch mode (faithful/themed), remove suspicious plugin syntax, check images\n\n## D. Guest verification\n\n- [ ] Stuck on **Verify and publish**?\n- [ ] Did you finish Turnstile in the browser and **return to Obsidian**?\n- [ ] Is the protocol callback blocked (`obsidian://mdfriday-publish?...`)?\n\n## E. Quotas\n\n- [ ] Site count: Guest 1 / Free 3 / Personal unlimited (plugin copy)\n- [ ] Storage: 5 MB / 50 MB / 1 GB — overage blocks new publishes\n- [ ] Wipe policy: Guest daily (UTC); Free on the 1st of each month — do not mistake this for a “lost data” bug\n\n## F. Domain (Personal)\n\n- [ ] Authenticated + published at least once\n- [ ] DNS **short hostname** filled correctly\n- [ ] Clicked verify / refresh status; HTTPS records complete\n\n## G. Credentials\n\n- [ ] Settings already has an mdf key; after switching machines you may need to reclaim/import (follow the account site)\n\n## Still stuck\n\n1. Copy the full panel error text  \n2. Note: note vs folder, mode, plan tier, whether preview succeeded  \n3. Discord: \u003chttps://discord.gg/t7FHJ6qNzT\u003e  \n4. Or the website contact entry (footer email / about page)\n\n## Related\n\n- [[faq|FAQ]]\n- [[plans/guest-free-personal|Plans]]\n- [[publish/right-panel|Right panel]]\n","tagNames":["troubleshooting"],"links":["faq","plans/guest-free-personal","publish/right-panel"],"tags":["tags/troubleshooting"]},"_manifest": {"slug":"_manifest","url":"/_manifest.html","title":"MDFriday Help · Manifest","content":"---\ntitle: MDFriday Help · Manifest\ndate: 2026-09-19\n---\n\n# MDFriday Help — page inventory and MEDIA TODO\n\nGenerated: 2026-09-19 (Asia/Shanghai)  \nAligned plugin: `mdfriday-publish` **v26.8.25** (mirrored at `/workspace/mdfriday-src/obsidian-publish`; on Mac use `…/obsidian-publish/manifest.json`)\n\n## File tree\n\n```\nMDFriday Help/\n├── _MANIFEST.md          ← this file\n├── index.md\n├── get-started.md\n├── concepts.md\n├── faq.md\n├── troubleshooting.md\n├── images/               ← empty (only .gitkeep)\n├── videos/\n│   └── placeholder-publish-demo.md\n├── publish/\n│   ├── _index.md\n│   ├── publish-note.md\n│   ├── publish-folder.md\n│   ├── modes.md\n│   ├── local-preview.md\n│   ├── quick-share.md\n│   ├── right-panel.md\n│   ├── password.md\n│   ├── custom-domain.md\n│   ├── history.md\n│   └── unpublish.md\n├── themes/\n│   ├── _index.md\n│   ├── choose-theme.md\n│   ├── notes-themes.md\n│   └── wiki-quartz.md\n├── plans/\n│   ├── _index.md\n│   ├── guest-free-personal.md\n│   └── claim-and-upgrade.md\n└── settings/\n    ├── _index.md\n    └── credentials.md\n```\n\n## MEDIA placeholders (Wayde to replace with real shots / recordings)\n\n| Placeholder | Suggested capture | Used on |\n| --- | --- | --- |\n| `images/placeholder-help-home.png` | Help vault home / navigation | index |\n| `images/placeholder-install-plugin.png` | Community plugin search install | get-started |\n| `images/placeholder-publish-menu.png` | Right-click “Publish to MDFriday” | get-started |\n| `images/placeholder-note-modes.png` | Note: faithful / single-page theme switch | publish-note |\n| `images/placeholder-wiki-publish.png` | Folder Wiki skin list | publish-folder |\n| `images/placeholder-preview-success.png` | Local preview success result | local-preview |\n| `images/placeholder-right-panel.png` | Full right panel | right-panel |\n| `images/placeholder-password.png` | Advanced · access password | password |\n| `images/placeholder-custom-domain.png` | Domain wizard DNS table | custom-domain |\n| `images/placeholder-history.png` | Personal history list | history |\n| `images/placeholder-theme-picker.png` | Theme list + Live demo | choose-theme |\n| `videos/placeholder-publish-demo.md` | One-click publish demo (replace with mp4 etc.) | get-started |\n\n## Feature inventory (used while writing)\n\nSources: `manifest.json`, `README.md`, `src/main.ts`, `setting.ts`, `types/publish*.ts`, `utils/theme.ts`, `cloudflare-env.ts`, `i18n/locales/zh-cn.ts`, `svelte/publish/PublishPanel.svelte`, `ux/DESIGN.md`; website `/products/obsidian-publish/`, `/solutions/*`, `/pricing/`.\n\n- Commands: `quick-share` (Quick share), `quick-publish` (Publish to MDFriday)\n- Menu: Open in MDFriday, Publish to MDFriday\n- Modes: note faithful/themed; folder themed-only (Wiki); defaults paper / quartz\n- Publish: Cloudflare V2; Guest without account; Turnstile; mdf key\n- Preview: local webserver; does not enter history\n- Plans: Guest/Free/Personal (quotas on plans pages; plugin vs website site-count copy conflict noted)\n- Domain / history rollback: Personal\n- Settings: Credentials only\n- **Not written as main paths**: Sync, Netlify/FTP, legacy bulk Hugo export\n\n## Known gaps / ambiguities\n\n1. **Site count**: plugin UI vs website pricing “unlimited sites” disagree → docs state plugin wins.\n2. **Friday Help reference tree**: this environment could not read Mac `Friday Help`; help.mdfriday.com fetch failed; structure rebuilt from the brief + current plugin IA; Sync chapters not copied.\n3. **Website source repo**: GitHub clone needed credentials and failed; used live pages via WebFetch instead.\n4. **Export static package / site-path UI**: new Publish panel has no user-facing primary “Export” / “Site path” buttons; sitePath/baseURL are mostly CF-internal. No invented export tutorial.\n5. **Personal monthly price**: $5 annualized vs $6 monthly — from website pricing; checkout page wins.\n","tagNames":[],"links":[],"tags":[]},"categories": {"slug":"categories","url":"/categories/index.html","title":"category","content":"","tagNames":[],"links":[],"tags":[]},"tags": {"slug":"tags","url":"/tags/index.html","title":"tag","content":"","tagNames":[],"links":[],"tags":[]},"tags/commands": {"slug":"tags/commands","url":"/tags/commands/index.html","title":"commands","content":"","tagNames":[],"links":[],"tags":[]},"tags/comparison": {"slug":"tags/comparison","url":"/tags/comparison/index.html","title":"comparison","content":"","tagNames":[],"links":[],"tags":[]},"tags/concepts": {"slug":"tags/concepts","url":"/tags/concepts/index.html","title":"concepts","content":"","tagNames":[],"links":[],"tags":[]},"tags/credentials": {"slug":"tags/credentials","url":"/tags/credentials/index.html","title":"credentials","content":"","tagNames":[],"links":[],"tags":[]},"tags/domain": {"slug":"tags/domain","url":"/tags/domain/index.html","title":"domain","content":"","tagNames":[],"links":[],"tags":[]},"tags/faq": {"slug":"tags/faq","url":"/tags/faq/index.html","title":"FAQ","content":"","tagNames":[],"links":[],"tags":[]},"tags/folder": {"slug":"tags/folder","url":"/tags/folder/index.html","title":"folder","content":"","tagNames":[],"links":[],"tags":[]},"tags/free": {"slug":"tags/free","url":"/tags/free/index.html","title":"Free","content":"","tagNames":[],"links":[],"tags":[]},"tags/getting-started": {"slug":"tags/getting-started","url":"/tags/getting-started/index.html","title":"getting-started","content":"","tagNames":[],"links":[],"tags":[]},"tags/guest": {"slug":"tags/guest","url":"/tags/guest/index.html","title":"Guest","content":"","tagNames":[],"links":[],"tags":[]},"tags/history": {"slug":"tags/history","url":"/tags/history/index.html","title":"history","content":"","tagNames":[],"links":[],"tags":[]},"tags/install": {"slug":"tags/install","url":"/tags/install/index.html","title":"install","content":"","tagNames":[],"links":[],"tags":[]},"tags/modes": {"slug":"tags/modes","url":"/tags/modes/index.html","title":"modes","content":"","tagNames":[],"links":[],"tags":[]},"tags/navigation": {"slug":"tags/navigation","url":"/tags/navigation/index.html","title":"navigation","content":"","tagNames":[],"links":[],"tags":[]},"tags/notes": {"slug":"tags/notes","url":"/tags/notes/index.html","title":"Notes","content":"","tagNames":[],"links":[],"tags":[]},"tags/panel": {"slug":"tags/panel","url":"/tags/panel/index.html","title":"panel","content":"","tagNames":[],"links":[],"tags":[]},"tags/password": {"slug":"tags/password","url":"/tags/password/index.html","title":"password","content":"","tagNames":[],"links":[],"tags":[]},"tags/personal": {"slug":"tags/personal","url":"/tags/personal/index.html","title":"Personal","content":"","tagNames":[],"links":[],"tags":[]},"tags/plans": {"slug":"tags/plans","url":"/tags/plans/index.html","title":"plans","content":"","tagNames":[],"links":[],"tags":[]},"tags/preview": {"slug":"tags/preview","url":"/tags/preview/index.html","title":"preview","content":"","tagNames":[],"links":[],"tags":[]},"tags/pricing": {"slug":"tags/pricing","url":"/tags/pricing/index.html","title":"pricing","content":"","tagNames":[],"links":[],"tags":[]},"tags/publish": {"slug":"tags/publish","url":"/tags/publish/index.html","title":"publish","content":"","tagNames":[],"links":[],"tags":[]},"tags/quartz": {"slug":"tags/quartz","url":"/tags/quartz/index.html","title":"Quartz","content":"","tagNames":[],"links":[],"tags":[]},"tags/security": {"slug":"tags/security","url":"/tags/security/index.html","title":"security","content":"","tagNames":[],"links":[],"tags":[]},"tags/settings": {"slug":"tags/settings","url":"/tags/settings/index.html","title":"settings","content":"","tagNames":[],"links":[],"tags":[]},"tags/share": {"slug":"tags/share","url":"/tags/share/index.html","title":"share","content":"","tagNames":[],"links":[],"tags":[]},"tags/single-note": {"slug":"tags/single-note","url":"/tags/single-note/index.html","title":"single-note","content":"","tagNames":[],"links":[],"tags":[]},"tags/themes": {"slug":"tags/themes","url":"/tags/themes/index.html","title":"themes","content":"","tagNames":[],"links":[],"tags":[]},"tags/troubleshooting": {"slug":"tags/troubleshooting","url":"/tags/troubleshooting/index.html","title":"troubleshooting","content":"","tagNames":[],"links":[],"tags":[]},"tags/ui": {"slug":"tags/ui","url":"/tags/ui/index.html","title":"UI","content":"","tagNames":[],"links":[],"tags":[]},"tags/unpublish": {"slug":"tags/unpublish","url":"/tags/unpublish/index.html","title":"unpublish","content":"","tagNames":[],"links":[],"tags":[]},"tags/wiki": {"slug":"tags/wiki","url":"/tags/wiki/index.html","title":"Wiki","content":"","tagNames":[],"links":[],"tags":[]},"videos": {"slug":"videos","url":"/videos/index.html","title":"Videos","content":"","tagNames":[],"links":[],"tags":[]},"videos/placeholder-publish-demo": {"slug":"videos/placeholder-publish-demo","url":"/videos/placeholder-publish-demo.html","title":"Placeholder · publish demo video","content":"---\ntitle: Placeholder · publish demo video\ndate: 2026-09-19\n---\n\n# Placeholder: one-click publish demo\n\nPut the real demo video in this folder and update references to `videos/placeholder-publish-demo.md` on other pages to the real filename (e.g. `.mp4`).\n\nSuggested shots: right-click note → Publish to MDFriday → (optional) Preview → Verify and publish → copy URL.\n","tagNames":[],"links":[],"tags":[]}}};
+
+  window.__FOUNDRY_PAGES__ = pages;
+  window.__FOUNDRY_BASE_URL_PATH__ = "";window.__FOUNDRY_CONTENT_INDEX__ = window.__MDF_SEARCH__.content;})();
+</script><script defer src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script><script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/search/search-inline.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/clipboard/clipboard.css
+">
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/clipboard/clipboard.js
+"></script><script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/toc/toc-interactive.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/explorer/explorer.css
+">
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/explorer/explorer.js
+"></script><link rel="stylesheet" href="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/graph/graph.css
+">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@8.0.0/dist/pixi.min.js"></script>
+<script defer src="
+https://cdn.mdfriday.com/t/base/2.2.3/caps/graph/graph.js
+"></script>
+
+</body>
+
+</html>

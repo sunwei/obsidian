@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "projects": [
+    {
+      "id": "mdfriday-publish-mu7le6xj",
+      "name": "MDFriday Publish",
+      "path": "MDFriday Publish",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/MDFriday Publish",
+      "createdAt": 1789774277529,
+      "updatedAt": 1789774381729,
+      "status": "active"
+    },
+    {
+      "id": "help-mu7ninw1",
+      "name": "Help",
+      "path": "Help",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Help",
+      "createdAt": 1789777845362,
+      "updatedAt": 1789778213451,
+      "status": "active"
+    },
+    {
+      "id": "mdfriday-help-mu7v2b4w",
+      "name": "MDFriday Help",
+      "path": "MDFriday Help",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/MDFriday Help",
+      "createdAt": 1789790519266,
+      "updatedAt": 1789797525967,
+      "status": "active"
+    },
+    {
+      "id": "sun-weis-garden-muc94pao",
+      "name": "Sun Wei's Garden",
+      "path": "Sun Wei's Garden",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Sun Wei's Garden",
+      "createdAt": 1790056010259,
+      "updatedAt": 1790056010259,
+      "status": "active"
+    },
+    {
+      "id": "publish-what-you-see-in-obsidian--as-is-mucdxyp9",
+      "name": "Publish what you see in Obsidian ~ As-is",
+      "path": "Publish what you see in Obsidian ~ As-is",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Publish what you see in Obsidian ~ As-is",
+      "createdAt": 1790064093938,
+      "updatedAt": 1790064093938,
+      "status": "active"
+    },
+    {
+      "id": "same-note---different-themes-mucfqqzd",
+      "name": "Same note - Different themes",
+      "path": "Same note - Different themes",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Same note - Different themes",
+      "createdAt": 1790067116573,
+      "updatedAt": 1790067116573,
+      "status": "active"
+    },
+    {
+      "id": "trip-2027-mucfr6ia",
+      "name": "Trip 2027",
+      "path": "Trip 2027",
+      "absolutePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Trip 2027",
+      "createdAt": 1790067136691,
+      "updatedAt": 1790067136691,
+      "status": "active"
+    }
+  ]
+}

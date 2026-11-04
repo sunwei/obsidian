@@ -1,0 +1,20 @@
+{
+  "id": "mdfriday-publish-mu7le6xj",
+  "name": "MDFriday Publish",
+  "type": "site",
+  "createdAt": 1789774277529,
+  "updatedAt": 1789774381729,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "fileLink": {
+    "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/MDFriday Publish.md",
+    "targetPath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/MDFriday Publish/content/index.md",
+    "isSymlink": true
+  },
+  "cloudflare": {
+    "cloudflareProjectId": "p_7648f47fb4f2b5be563190d0ff7c07de",
+    "hostingMode": "share",
+    "boundAt": 1789774278414,
+    "siteId": "8ZD3Y8",
+    "publicBaseUrl": "https://share.mdfriday.com"
+  }
+}

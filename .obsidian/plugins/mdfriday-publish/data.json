@@ -1,0 +1,51 @@
+{
+  "downloadServer": "global",
+  "mdfKey": "MDF_NO5I4pj39n5hq9qMSO0BnsOfXYS9Tvjc",
+  "mdfKeyKind": "user",
+  "mdfKeyPlan": "personal",
+  "mdfStorageBytes": 31014817,
+  "mdfQuotaStorageBytes": 1073741824,
+  "mdfContentExpiresAt": null,
+  "mdfProjectCount": 4,
+  "mdfQuotaMaxProjects": null,
+  "mdfQuotaRetentionDays": null,
+  "mdfQuotaMaxCustomDomains": 3,
+  "mdfQuotaFeatures": [
+    "ai",
+    "custom_domain",
+    "rollback",
+    "permanent_retention",
+    "unlimited_projects"
+  ],
+  "mdfAccountEmail": "wayde.sun@gmail.com",
+  "hasPublishedOnce": true,
+  "pathConfigs": {
+    "MDFriday Publish.md": {
+      "mode": "faithful",
+      "hasPasswordFlag": false,
+      "updatedAt": 1789774382032
+    },
+    "sites/MDFriday Help": {
+      "mode": "themed",
+      "themeSlug": "quartz",
+      "hasPasswordFlag": false,
+      "updatedAt": 1789797887444
+    },
+    "sites/Sun Wei's Garden": {
+      "mode": "themed",
+      "themeSlug": "quartz",
+      "hasPasswordFlag": false,
+      "updatedAt": 1790056300085
+    },
+    "Share Note/Publish what you see in Obsidian ~ As-is.md": {
+      "mode": "faithful",
+      "hasPasswordFlag": false,
+      "updatedAt": 1790065754859
+    }
+  },
+  "cloudflareEnv": "production",
+  "cloudflareResolvedEnv": "production",
+  "cloudflareApiBaseUrl": "https://api.mdfriday.com",
+  "cloudflarePublicBaseUrl": "https://share.mdfriday.com",
+  "cloudflareAccountBaseUrl": "https://mdfriday.com/account"
+}

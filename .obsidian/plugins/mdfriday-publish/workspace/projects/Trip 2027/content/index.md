@@ -1,0 +1,1 @@
+/Users/weisun/github/mdfriday/workspace/demo-vault/Share Note/Trip 2027.md

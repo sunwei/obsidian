@@ -1,0 +1,52 @@
+{
+  "serverConfig": {
+    "apiUrl": "https://app.sunwei.xyz"
+  },
+  "email": "yv9n-3n93-pxdz@mdfriday.com",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImV4cCI6MTc5MTkzNTg0NCwiaWF0IjpudWxsLCJpc3MiOm51bGwsImp0aSI6bnVsbCwibmJmIjpudWxsLCJzdWIiOm51bGwsInVzZXIiOiJ5djluLTNuOTMtcHhkekBtZGZyaWRheS5jb20ifQ.jdUWK82ye1P7iRCc_WWAzCELtNkPwVrhRJNy4ZJpZBY",
+  "license": {
+    "key": "MDF-YV9N-3N93-PXDZ",
+    "plan": "Free",
+    "expiresAt": 1789948644620,
+    "features": {
+      "maxDevices": 3,
+      "maxIps": 3,
+      "syncEnabled": true,
+      "syncQuota": 500,
+      "publishEnabled": true,
+      "maxSites": 3,
+      "maxStorage": 10240,
+      "customDomain": true,
+      "customSubDomain": true,
+      "validityDays": 7
+    },
+    "activatedAt": 1789343845041,
+    "activated": true,
+    "firstTime": true,
+    "user": {
+      "email": "yv9n-3n93-pxdz@mdfriday.com",
+      "userDir": "bceb42c800"
+    },
+    "activation": {
+      "activated": true,
+      "firstTime": true
+    },
+    "sync": {
+      "enabled": true,
+      "status": "active",
+      "dbEndpoint": "https://cdb.sunwei.xyz",
+      "dbName": "userdb-bceb42c800544fdc",
+      "email": "yv9n-3n93-pxdz@mdfriday.com",
+      "dbPassword": "eXY5bi0zbjkzLXB4ZHo=",
+      "userDir": "bceb42c800"
+    }
+  },
+  "syncConfig": {
+    "dbEndpoint": "https://cdb.sunwei.xyz",
+    "dbName": "userdb-bceb42c800544fdc",
+    "email": "yv9n-3n93-pxdz@mdfriday.com",
+    "dbPassword": "eXY5bi0zbjkzLXB4ZHo=",
+    "userDir": "bceb42c800",
+    "status": "active"
+  }
+}

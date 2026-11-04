@@ -1,0 +1,13 @@
+{
+  "id": "publish-what-you-see-in-obsidian--as-is-mucdxyp9",
+  "name": "Publish what you see in Obsidian ~ As-is",
+  "type": "site",
+  "createdAt": 1790064093938,
+  "updatedAt": 1790064093938,
+  "workspaceId": "workspace-1789774042535-i0wxwd4c4",
+  "fileLink": {
+    "sourcePath": "/Users/weisun/github/mdfriday/workspace/demo-vault/Share Note/Publish what you see in Obsidian ~ As-is.md",
+    "targetPath": "/Users/weisun/github/mdfriday/workspace/demo-vault/.obsidian/plugins/mdfriday-publish/workspace/projects/Publish what you see in Obsidian ~ As-is/content/index.md",
+    "isSymlink": true
+  }
+}

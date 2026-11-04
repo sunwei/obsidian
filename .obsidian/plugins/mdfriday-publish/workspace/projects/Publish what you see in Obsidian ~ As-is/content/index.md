@@ -1,0 +1,1 @@
+/Users/weisun/github/mdfriday/workspace/demo-vault/Share Note/Publish what you see in Obsidian ~ As-is.md
